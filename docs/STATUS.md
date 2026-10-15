@@ -42,3 +42,11 @@ Updated: 2026-10-16. Implementation approved; Devin and GRUB appearance excluded
 Overall: implementation delivered; complete recovery is not accepted yet.
 
 The next acceptance action is an isolated fresh CachyOS run followed by boot, login, desktop, audio, networking, and custom-service review. Tests and VM provisioning have not been requested.
+
+## Publication
+
+- Public bootstrap: https://github.com/ashin-15/cachyos-bootstrap
+- Private settings: https://github.com/ashin-15/cachyos-settings
+- Both repositories are on main; visibility was checked after upload.
+- Four Git LFS objects totaling 451 MB were uploaded successfully.
+- Publication is complete. Fresh-target recovery remains unverified.

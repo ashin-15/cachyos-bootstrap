@@ -1,11 +1,11 @@
 # Environment reproduction delivery loop
 
-Current state: judging
+Current state: blocked
 Current loop: LOOP-001
 Frozen specification: PRD.md, TECH_DESIGN.md, ACCEPTANCE.md - 2026-10-15 review version
-Current objective: Publish implemented repositories and record validation limits.
+Current objective: Obtain fresh-target recovery acceptance evidence.
 Blocking issue: Fresh-install and interactive acceptance evidence is unavailable.
-Next action: Finish publication; fresh-target acceptance remains a separate unverified gate.
+Next action: Fresh CachyOS execution and interactive acceptance when requested.
 Last updated: 2026-10-16
 
 ## Current loop - LOOP-001
@@ -59,3 +59,13 @@ The user requested "No need of devin" during implementation. Exclude Devin deskt
 - Live-system mutations: repository/capture data only; no host installation, upgrade, service restart/activation, or boot regeneration.
 - Main-agent judgment: fresh recovery not accepted; see docs/STATUS.md matrix.
 - Next action: publish the approved public/private repository contents.
+
+## Publication completed - 2026-10-16
+
+- Public repository: https://github.com/ashin-15/cachyos-bootstrap (PUBLIC, main).
+- Private repository: https://github.com/ashin-15/cachyos-settings (PRIVATE, main).
+- Initial public implementation commit: ccda82ac22ee54ae63686f99c7a0ebdb779b9375.
+- Private snapshot commit: 3a650f31dc2a53a474937c7ad534e18ff1f3ed8b.
+- Git LFS upload: four objects, 451 MB, successful.
+- Both published repositories were confirmed nonempty with expected visibility/default branch. Local and origin/main heads matched; both working trees were clean.
+- Implementation and backup publication are delivered. Complete recovery acceptance remains blocked on a fresh target; no tests/VM/live installation were requested or run.
