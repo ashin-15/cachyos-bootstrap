@@ -1,0 +1,5 @@
+/home/ashin/.bun/install/global node_modules (177)
+├── @oh-my-pi/pi-coding-agent@18.10.4
+├── @oh-my-pi/pi-natives@18.10.4
+├── @oh-my-pi/pi-natives-linux-x64@18.10.4
+└── @opencode/cli@2.0.28

@@ -1,0 +1,11 @@
+{
+  "schema_version": 1,
+  "extra": [
+    {
+      "name": "openai-chatgpt",
+      "server": "https://persistent.oaistatic.com/codex-app-prod/linux/arch/x86_64",
+      "key_file": "manifests/openai-repository.asc",
+      "key_fingerprint": "3BFA0E4AE8B8CC16A2D9BA684A3B4A566C4660E4"
+    }
+  ]
+}

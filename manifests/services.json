@@ -1,0 +1,50 @@
+{
+  "system": [
+    "cachyos-iw-set-regdomain.path",
+    "ananicy-cpp.service",
+    "auto-cpufreq.service",
+    "avahi-daemon.service",
+    "bluetooth.service",
+    "docker.service",
+    "getty@.service",
+    "intel_lpmd.service",
+    "mariadb.service",
+    "NetworkManager-dispatcher.service",
+    "NetworkManager-wait-online.service",
+    "NetworkManager.service",
+    "proton.VPN.service",
+    "sddm.service",
+    "systemd-network-generator.service",
+    "systemd-networkd-wait-online.service",
+    "systemd-networkd.service",
+    "systemd-resolved.service",
+    "systemd-timesyncd.service",
+    "ufw.service",
+    "avahi-daemon.socket",
+    "systemd-networkd-resolve-hook.socket",
+    "systemd-networkd-varlink-metrics.socket",
+    "systemd-networkd-varlink.socket",
+    "systemd-networkd.socket",
+    "systemd-resolved-monitor.socket",
+    "systemd-resolved-varlink.socket",
+    "systemd-userdbd.socket",
+    "remote-fs.target",
+    "cachyos-rate-mirrors.timer",
+    "fstrim.timer",
+    "fwupd-refresh.timer"
+  ],
+  "user": [
+    "camp-fi.service",
+    "no-mistakes-daemon-786ed5c5.service",
+    "wireplumber.service",
+    "xdg-user-dirs.service",
+    "gnome-keyring-daemon.socket",
+    "p11-kit-server.socket",
+    "pipewire-pulse.socket",
+    "pipewire.socket"
+  ],
+  "schema_version": 1,
+  "disabled_user": [
+    "hermes-gateway.service"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "lib",
+  "dependencies": {
+    "@agentmemory/agentmemory": {
+      "version": "0.9.28",
+      "overridden": false
+    },
+    "@earendil-works/pi-coding-agent": {
+      "version": "0.86.0",
+      "overridden": false
+    },
+    "@fission-ai/openspec": {
+      "version": "1.6.0",
+      "overridden": false
+    },
+    "lavish-axi": {
+      "version": "0.1.73",
+      "overridden": false
+    },
+    "playwright": {
+      "version": "1.61.1",
+      "overridden": false
+    },
+    "sql.js": {
+      "version": "1.14.1",
+      "overridden": false
+    },
+    "systray2": {
+      "version": "2.1.4",
+      "overridden": false
+    },
+    "typescript-language-server": {
+      "version": "5.3.0",
+      "overridden": false
+    },
+    "typescript": {
+      "version": "7.0.2",
+      "overridden": false
+    }
+  }
+}

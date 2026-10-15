@@ -1,0 +1,106 @@
+[
+  {
+    "package": "cachyos-mirrorlist",
+    "path": "/etc/pacman.d/cachyos-mirrorlist"
+  },
+  {
+    "package": "cachyos-v3-mirrorlist",
+    "path": "/etc/pacman.d/cachyos-v3-mirrorlist"
+  },
+  {
+    "package": "cachyos-v4-mirrorlist",
+    "path": "/etc/pacman.d/cachyos-v4-mirrorlist"
+  },
+  {
+    "package": "filesystem",
+    "path": "/etc/fstab"
+  },
+  {
+    "package": "filesystem",
+    "path": "/etc/group"
+  },
+  {
+    "package": "filesystem",
+    "path": "/etc/hosts"
+  },
+  {
+    "package": "filesystem",
+    "path": "/etc/passwd"
+  },
+  {
+    "package": "filesystem",
+    "path": "/etc/resolv.conf"
+  },
+  {
+    "package": "filesystem",
+    "path": "/etc/shells"
+  },
+  {
+    "package": "filesystem",
+    "path": "/etc/subgid"
+  },
+  {
+    "package": "filesystem",
+    "path": "/etc/subuid"
+  },
+  {
+    "package": "glibc",
+    "path": "/etc/locale.gen"
+  },
+  {
+    "package": "grub",
+    "path": "/etc/default/grub"
+  },
+  {
+    "package": "mkinitcpio",
+    "path": "/etc/mkinitcpio.conf"
+  },
+  {
+    "package": "pacman",
+    "path": "/etc/pacman.conf"
+  },
+  {
+    "package": "pacman",
+    "path": "/etc/makepkg.conf"
+  },
+  {
+    "package": "pacman-mirrorlist",
+    "path": "/etc/pacman.d/mirrorlist"
+  },
+  {
+    "package": "plymouth",
+    "path": "/etc/plymouth/plymouthd.conf"
+  },
+  {
+    "package": "systemd",
+    "path": "/etc/systemd/logind.conf"
+  },
+  {
+    "package": "systemd",
+    "path": "/etc/systemd/resolved.conf"
+  },
+  {
+    "package": "systemd",
+    "path": "/etc/systemd/sleep.conf"
+  },
+  {
+    "package": "tpm2-tss",
+    "path": "/etc/tpm2-tss/fapi-profiles/P_ECCP384SHA384.json"
+  },
+  {
+    "package": "tpm2-tss",
+    "path": "/etc/tpm2-tss/fapi-profiles/P_RSA3072SHA384.json"
+  },
+  {
+    "package": "ufw",
+    "path": "/etc/ufw/ufw.conf"
+  },
+  {
+    "package": "ufw",
+    "path": "/etc/ufw/user.rules"
+  },
+  {
+    "package": "ufw",
+    "path": "/etc/ufw/user6.rules"
+  }
+]

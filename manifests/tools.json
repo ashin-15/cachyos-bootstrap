@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "npm": [
+    "@agentmemory/agentmemory",
+    "@earendil-works/pi-coding-agent",
+    "@fission-ai/openspec",
+    "@github/copilot",
+    "@openai/codex",
+    "lavish-axi",
+    "playwright",
+    "sql.js",
+    "systray2",
+    "typescript",
+    "typescript-language-server"
+  ],
+  "bun": [
+    "@oh-my-pi/pi-coding-agent",
+    "@oh-my-pi/pi-natives",
+    "@oh-my-pi/pi-natives-linux-x64",
+    "@opencode/cli"
+  ],
+  "uv": [
+    "graphifyy",
+    "hf",
+    "typer-cli-tool"
+  ],
+  "cargo": [
+    "rustlings"
+  ],
+  "rust_components": [
+    "cargo",
+    "clippy",
+    "rust-docs",
+    "rust-src",
+    "rust-std",
+    "rustc",
+    "rustfmt"
+  ],
+  "python_versions": [
+    "3.11",
+    "3.12"
+  ],
+  "vendor_installers": [
+    {
+      "name": "claude",
+      "url": "https://claude.ai/install.sh",
+      "shell": "bash",
+      "args": [
+        "latest"
+      ]
+    },
+    {
+      "name": "kiro-cli",
+      "url": "https://cli.kiro.dev/install",
+      "shell": "bash",
+      "args": []
+    },
+    {
+      "name": "no-mistakes",
+      "url": "https://raw.githubusercontent.com/kunchenguid/no-mistakes/main/docs/install.sh",
+      "shell": "sh",
+      "args": []
+    },
+    {
+      "name": "agy",
+      "url": "https://antigravity.google/cli/install.sh",
+      "shell": "bash",
+      "args": []
+    }
+  ],
+  "source_repos": [
+    {
+      "name": "camp-fi",
+      "url": "https://github.com/ashin-15/camp-fi.git",
+      "path": "Projects/wifi-auther",
+      "kind": "camp-fi"
+    },
+    {
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent.git",
+      "path": ".hermes/hermes-agent",
+      "kind": "hermes"
+    }
+  ]
+}

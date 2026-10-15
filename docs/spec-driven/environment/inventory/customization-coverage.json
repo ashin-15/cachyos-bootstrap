@@ -1,0 +1,706 @@
+{
+  "schema_version": 1,
+  "status": "known-observation-coverage; fresh-target review pending",
+  "records": [
+    {
+      "source": "/etc/pacman.d/cachyos-mirrorlist",
+      "kind": "modified-package-backup-file",
+      "package": "cachyos-mirrorlist",
+      "restore_policy": "regenerate-current-mirrors",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/pacman.d/cachyos-v3-mirrorlist",
+      "kind": "modified-package-backup-file",
+      "package": "cachyos-v3-mirrorlist",
+      "restore_policy": "regenerate-current-mirrors",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/pacman.d/cachyos-v4-mirrorlist",
+      "kind": "modified-package-backup-file",
+      "package": "cachyos-v4-mirrorlist",
+      "restore_policy": "regenerate-current-mirrors",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/fstab",
+      "kind": "modified-package-backup-file",
+      "package": "filesystem",
+      "restore_policy": "semantic-reconstruction-or-target-identity-preservation",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/group",
+      "kind": "modified-package-backup-file",
+      "package": "filesystem",
+      "restore_policy": "semantic-reconstruction-or-target-identity-preservation",
+      "status": "semantic-reconstruction",
+      "note": "Keep target account database; recreate ashin shell/groups and use package-provided shell registrations."
+    },
+    {
+      "source": "/etc/hosts",
+      "kind": "modified-package-backup-file",
+      "package": "filesystem",
+      "restore_policy": "semantic-reconstruction-or-target-identity-preservation",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/passwd",
+      "kind": "modified-package-backup-file",
+      "package": "filesystem",
+      "restore_policy": "semantic-reconstruction-or-target-identity-preservation",
+      "status": "semantic-reconstruction",
+      "note": "Keep target account database; recreate ashin shell/groups and use package-provided shell registrations."
+    },
+    {
+      "source": "/etc/resolv.conf",
+      "kind": "modified-package-backup-file",
+      "package": "filesystem",
+      "restore_policy": "semantic-reconstruction-or-target-identity-preservation",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/shells",
+      "kind": "modified-package-backup-file",
+      "package": "filesystem",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "semantic-reconstruction",
+      "note": "Keep target account database; recreate ashin shell/groups and use package-provided shell registrations."
+    },
+    {
+      "source": "/etc/subgid",
+      "kind": "modified-package-backup-file",
+      "package": "filesystem",
+      "restore_policy": "semantic-reconstruction-or-target-identity-preservation",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/subuid",
+      "kind": "modified-package-backup-file",
+      "package": "filesystem",
+      "restore_policy": "semantic-reconstruction-or-target-identity-preservation",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/locale.gen",
+      "kind": "modified-package-backup-file",
+      "package": "glibc",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "captured-and-deployment-implemented",
+      "note": "Observed through pacman backup metadata; not automatically approved for copying.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/default/grub",
+      "kind": "modified-package-backup-file",
+      "package": "grub",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "excluded-by-user",
+      "note": "GRUB appearance excluded by implementation approval."
+    },
+    {
+      "source": "/etc/mkinitcpio.conf",
+      "kind": "modified-package-backup-file",
+      "package": "mkinitcpio",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "target-specific-merge",
+      "note": "Merge Plymouth hook and regenerate target initramfs; preserve target boot identity."
+    },
+    {
+      "source": "/etc/pacman.conf",
+      "kind": "modified-package-backup-file",
+      "package": "pacman",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "target-specific-merge",
+      "note": "Use target CachyOS repositories; enable standard missing repos and the verified extra source."
+    },
+    {
+      "source": "/etc/makepkg.conf",
+      "kind": "modified-package-backup-file",
+      "package": "pacman",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "captured-and-deployment-implemented",
+      "note": "Observed through pacman backup metadata; not automatically approved for copying.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/pacman.d/mirrorlist",
+      "kind": "modified-package-backup-file",
+      "package": "pacman-mirrorlist",
+      "restore_policy": "regenerate-current-mirrors",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/plymouth/plymouthd.conf",
+      "kind": "modified-package-backup-file",
+      "package": "plymouth",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "captured-and-deployment-implemented",
+      "note": "Observed through pacman backup metadata; not automatically approved for copying.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/systemd/logind.conf",
+      "kind": "modified-package-backup-file",
+      "package": "systemd",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "captured-and-deployment-implemented",
+      "note": "Observed through pacman backup metadata; not automatically approved for copying.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/systemd/resolved.conf",
+      "kind": "modified-package-backup-file",
+      "package": "systemd",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "captured-and-deployment-implemented",
+      "note": "Observed through pacman backup metadata; not automatically approved for copying.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/systemd/sleep.conf",
+      "kind": "modified-package-backup-file",
+      "package": "systemd",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "captured-and-deployment-implemented",
+      "note": "Observed through pacman backup metadata; not automatically approved for copying.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/tpm2-tss/fapi-profiles/P_ECCP384SHA384.json",
+      "kind": "modified-package-backup-file",
+      "package": "tpm2-tss",
+      "restore_policy": "review-machine-specific-tpm-configuration",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/tpm2-tss/fapi-profiles/P_RSA3072SHA384.json",
+      "kind": "modified-package-backup-file",
+      "package": "tpm2-tss",
+      "restore_policy": "review-machine-specific-tpm-configuration",
+      "status": "preserve-target-default-or-identity",
+      "note": "Do not replay generated disk/account/network/TPM identity files."
+    },
+    {
+      "source": "/etc/ufw/ufw.conf",
+      "kind": "modified-package-backup-file",
+      "package": "ufw",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "captured-and-deployment-implemented",
+      "note": "Observed through pacman backup metadata; not automatically approved for copying.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/ufw/user.rules",
+      "kind": "modified-package-backup-file",
+      "package": "ufw",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "captured-and-deployment-implemented",
+      "note": "Observed through pacman backup metadata; not automatically approved for copying.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/ufw/user6.rules",
+      "kind": "modified-package-backup-file",
+      "package": "ufw",
+      "restore_policy": "review-local-delta-and-merge",
+      "status": "captured-and-deployment-implemented",
+      "note": "Observed through pacman backup metadata; not automatically approved for copying.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/grub/themes/cachyos/theme.txt",
+      "kind": "appearance-asset",
+      "package": "cachyos-grub-theme",
+      "restore_policy": "install-current-provider-and-restore-selection",
+      "status": "current-provider-recipe",
+      "note": "Package ownership alone does not prove all referenced assets are unmodified."
+    },
+    {
+      "source": "/usr/share/plymouth/themes/cachyos-bootanimation/cachyos-bootanimation.plymouth",
+      "kind": "appearance-asset",
+      "package": "cachyos-plymouth-bootanimation",
+      "restore_policy": "install-current-provider-and-restore-selection",
+      "status": "current-provider-recipe",
+      "note": "Package ownership alone does not prove all referenced assets are unmodified."
+    },
+    {
+      "source": "/usr/share/fonts/ARCADECLASSIC.TTF",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/fonts/ESPACION.ttf",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/fonts/Electroharmonix.otf",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/fonts/Fragile Bombers Attack.otf",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/fonts/Fragile Bombers Down.otf",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/fonts/Fragile Bombers.otf",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/fonts/KogniGear.ttf",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/fonts/Orbitron Black.ttf",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/fonts/Thunderman.ttf",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/share/fonts/pixelon.regular.ttf",
+      "kind": "appearance-asset",
+      "package": null,
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "note": "Root-level unowned fonts captured in private local customization snapshot.",
+      "deployment_entries": 1
+    },
+    {
+      "source": "cachyos-iw-set-regdomain.path",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "ananicy-cpp.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "auto-cpufreq.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "avahi-daemon.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "bluetooth.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "docker.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "getty@.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "intel_lpmd.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "mariadb.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "NetworkManager-dispatcher.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "NetworkManager-wait-online.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "NetworkManager.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "proton.VPN.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "sddm.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-network-generator.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-networkd-wait-online.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-networkd.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-resolved.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-timesyncd.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "ufw.service",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "avahi-daemon.socket",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-networkd-resolve-hook.socket",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-networkd-varlink-metrics.socket",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-networkd-varlink.socket",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-networkd.socket",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-resolved-monitor.socket",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-resolved-varlink.socket",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "systemd-userdbd.socket",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "remote-fs.target",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "cachyos-rate-mirrors.timer",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "fstrim.timer",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "fwupd-refresh.timer",
+      "kind": "enabled-unit",
+      "scope": "system",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "camp-fi.service",
+      "kind": "enabled-unit",
+      "scope": "user",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "no-mistakes-daemon-786ed5c5.service",
+      "kind": "enabled-unit",
+      "scope": "user",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "wireplumber.service",
+      "kind": "enabled-unit",
+      "scope": "user",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "xdg-user-dirs.service",
+      "kind": "enabled-unit",
+      "scope": "user",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "gnome-keyring-daemon.socket",
+      "kind": "enabled-unit",
+      "scope": "user",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "p11-kit-server.socket",
+      "kind": "enabled-unit",
+      "scope": "user",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "pipewire-pulse.socket",
+      "kind": "enabled-unit",
+      "scope": "user",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "pipewire.socket",
+      "kind": "enabled-unit",
+      "scope": "user",
+      "observed_enabled": true,
+      "restore_policy": "restore-dependencies-and-validated-enablement",
+      "status": "implemented-enablement-with-availability-check"
+    },
+    {
+      "source": "/usr/share/sddm/themes/star-rail",
+      "kind": "login-theme",
+      "restore_policy": "deploy-exact-private-asset",
+      "status": "captured-and-deployment-implemented",
+      "deployment_entries": 4
+    },
+    {
+      "source": "/home/ashin/.local/state/noctalia/settings.toml",
+      "kind": "effective-desktop-settings",
+      "restore_policy": "deploy-reviewed-private-settings",
+      "status": "captured-and-deployment-implemented",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/environment.d/30-opencl.conf",
+      "kind": "hardware-profile",
+      "restore_policy": "conditional-device-match",
+      "status": "captured-and-deployment-implemented",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/modprobe.d/sof-disable.conf",
+      "kind": "hardware-profile",
+      "restore_policy": "conditional-device-match",
+      "status": "captured-and-deployment-implemented",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/tmpfiles.d/micmute-led.conf",
+      "kind": "hardware-profile",
+      "restore_policy": "conditional-device-match",
+      "status": "captured-and-deployment-implemented",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/etc/systemd/system/ollama.service.d/override.conf",
+      "kind": "service-override",
+      "restore_policy": "deploy-reviewed-private-settings",
+      "status": "captured-and-deployment-implemented",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/usr/local/bin/remove-nvidia",
+      "kind": "local-executable",
+      "restore_policy": "identify-source-and-classify",
+      "status": "captured-and-deployment-implemented",
+      "deployment_entries": 1
+    },
+    {
+      "source": "/opt/hermes-agent",
+      "kind": "manual-installation",
+      "restore_policy": "identify-source-and-classify",
+      "status": "excluded-inactive-duplicate",
+      "note": "Active desktop launchers use ~/.hermes/hermes-agent, which has a source/build recipe."
+    }
+  ],
+  "provenance": "Read-only filesystem/package observations and systemctl enabled-unit output from this session. Capture refresh required before implementation is considered complete."
+}

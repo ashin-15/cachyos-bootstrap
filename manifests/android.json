@@ -1,0 +1,14 @@
+{
+  "schema_version": 1,
+  "api_targets": [
+    35,
+    36
+  ],
+  "latest_stable": true,
+  "families": [
+    "platform-tools",
+    "build-tools",
+    "ndk",
+    "cmake"
+  ]
+}

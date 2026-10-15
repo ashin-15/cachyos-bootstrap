@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.state/
+.lavish/
+.ruff_cache/
+*.log
+*.lock

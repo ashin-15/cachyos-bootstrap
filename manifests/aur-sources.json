@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "sources": [
+    {
+      "name": "antigravity",
+      "package_base": "antigravity",
+      "upstream_url": "https://antigravity.google/product/antigravity-2",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/antigravity.tar.gz"
+    },
+    {
+      "name": "deckcraft-bin",
+      "package_base": "deckcraft-bin",
+      "upstream_url": "https://github.com/storytold/deckcraft",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/deckcraft-bin.tar.gz"
+    },
+    {
+      "name": "google-cloud-cli",
+      "package_base": "google-cloud-cli",
+      "upstream_url": "https://cloud.google.com/cli/",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/google-cloud-cli.tar.gz"
+    },
+    {
+      "name": "google-cloud-cli-bq",
+      "package_base": "google-cloud-cli",
+      "upstream_url": "https://cloud.google.com/cli/",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/google-cloud-cli-bq.tar.gz"
+    },
+    {
+      "name": "gridcraft-bin",
+      "package_base": "gridcraft-bin",
+      "upstream_url": "https://github.com/storytold/gridcraft",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/gridcraft-bin.tar.gz"
+    },
+    {
+      "name": "gtk-engine-murrine",
+      "package_base": "gtk-engine-murrine",
+      "upstream_url": "http://cimitan.com/murrine/project/murrine",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/gtk-engine-murrine.tar.gz"
+    },
+    {
+      "name": "lm-studio-bin",
+      "package_base": "lm-studio-bin",
+      "upstream_url": "https://lmstudio.ai",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/lm-studio-bin.tar.gz"
+    },
+    {
+      "name": "nuvio-desktop-bin",
+      "package_base": "nuvio-desktop-bin",
+      "upstream_url": "https://github.com/NuvioMedia/NuvioDesktop",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/nuvio-desktop-bin.tar.gz"
+    },
+    {
+      "name": "pacman-cleanup-hook",
+      "package_base": "pacman-cleanup-hook",
+      "upstream_url": null,
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/pacman-cleanup-hook.tar.gz"
+    },
+    {
+      "name": "photocraft-bin",
+      "package_base": "photocraft-bin",
+      "upstream_url": "https://github.com/storytold/photocraft",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/photocraft-bin.tar.gz"
+    },
+    {
+      "name": "seclists",
+      "package_base": "seclists",
+      "upstream_url": "https://github.com/danielmiessler/SecLists",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/seclists.tar.gz"
+    },
+    {
+      "name": "spotify",
+      "package_base": "spotify",
+      "upstream_url": "https://www.spotify.com",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/spotify.tar.gz"
+    },
+    {
+      "name": "tabbed",
+      "package_base": "tabbed",
+      "upstream_url": "https://tools.suckless.org/tabbed",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/tabbed.tar.gz"
+    },
+    {
+      "name": "tokyonight-gtk-theme-git",
+      "package_base": "tokyonight-gtk-theme-git",
+      "upstream_url": "https://github.com/Fausto-Korpsvart/Tokyo-Night-GTK-Theme",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/tokyonight-gtk-theme-git.tar.gz"
+    },
+    {
+      "name": "ttf-comic-sans",
+      "package_base": "ttf-comic-sans",
+      "upstream_url": "https://learn.microsoft.com/en-us/typography/font-list/comic-sans-ms",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/ttf-comic-sans.tar.gz"
+    },
+    {
+      "name": "ttf-d-din",
+      "package_base": "d-din",
+      "upstream_url": "https://fontlibrary.org/en/font/d-din",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/ttf-d-din.tar.gz"
+    },
+    {
+      "name": "visual-studio-code-bin",
+      "package_base": "visual-studio-code-bin",
+      "upstream_url": "https://code.visualstudio.com/",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/visual-studio-code-bin.tar.gz"
+    },
+    {
+      "name": "wordcraft-bin",
+      "package_base": "wordcraft-bin",
+      "upstream_url": "https://github.com/storytold/wordcraft",
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/wordcraft-bin.tar.gz"
+    },
+    {
+      "name": "wordlists",
+      "package_base": "wordlists",
+      "upstream_url": null,
+      "recipe": "https://aur.archlinux.org//cgit/aur.git/snapshot/wordlists.tar.gz"
+    }
+  ],
+  "unresolved": []
+}

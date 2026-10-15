@@ -1,0 +1,728 @@
+{
+  "schema_version": 1,
+  "private_repo": "ashin-15/cachyos-settings",
+  "entries": [
+    {
+      "root": "home",
+      "path": ".config/hypr",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/noctalia",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/kitty",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/alacritty",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/nvim",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/zathura",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/mpv",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/Kvantum",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/qt5ct",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/qt6ct",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/leet",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/lazygit",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/btop",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/fastfetch",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/zed",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/nwg-look",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/systemd/user",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".local/share/noctalia/plugins",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".local/state/noctalia/community-palettes",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".agents/skills",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".claude/hooks",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".claude/skills",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".codex/rules",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".omp/agent/skills",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/opencode/plugins",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".hermes/hooks",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".hermes/skills",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/Code/User/snippets",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/Cursor/User/snippets",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/Antigravity/User/snippets",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".zshrc",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".zprofile",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".p10k.zsh",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".gitconfig",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".npmrc",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".face",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".face.icon",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/gtk-3.0/settings.ini",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/gtk-3.0/gtk.css",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/gtk-4.0/gtk.css",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/mimeapps.list",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/user-dirs.dirs",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/user-dirs.locale",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/kdeglobals",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".local/state/noctalia/settings.toml",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".agents/AGENTS.md",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".codex/config.toml",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".codex/AGENTS.md",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".codex/hooks.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".claude/settings.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".claude/CLAUDE.md",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".copilot/copilot-instructions.md",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".gemini/config/AGENTS.md",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".kiro/steering/AGENTS.md",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".hermes/config.yaml",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".hermes/SOUL.md",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".no-mistakes/config.yaml",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/opencode/AGENTS.md",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/opencode/cli.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/opencode/opencode.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/opencode/tui.jsonc",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/opencode/herdr-tui-session.js",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/opencode/herdr-opencode",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Code/User/settings.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Code/User/keybindings.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Code/User/mcp.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Code/User/mcp_config.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Cursor/User/settings.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Cursor/User/keybindings.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Cursor/User/mcp.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Cursor/User/mcp_config.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Antigravity/User/settings.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Antigravity/User/keybindings.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Antigravity/User/mcp.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/Antigravity/User/mcp_config.json",
+      "type": "file"
+    },
+    {
+      "root": "system",
+      "path": "etc/sddm.conf",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/sddm.conf.d/theme.conf",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/sddm.conf.d/virtualkbd.conf",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/plymouth/plymouthd.conf",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/environment.d/30-opencl.conf",
+      "type": "file",
+      "hardware": true
+    },
+    {
+      "root": "system",
+      "path": "etc/modprobe.d/sof-disable.conf",
+      "type": "file",
+      "hardware": true
+    },
+    {
+      "root": "system",
+      "path": "etc/tmpfiles.d/micmute-led.conf",
+      "type": "file",
+      "hardware": true
+    },
+    {
+      "root": "system",
+      "path": "etc/systemd/system/ollama.service.d",
+      "type": "tree",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/environment",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/locale.conf",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/vconsole.conf",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/locale.gen",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/systemd/logind.conf",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/systemd/sleep.conf",
+      "type": "file",
+      "hardware": true
+    },
+    {
+      "root": "system",
+      "path": "etc/systemd/resolved.conf",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/makepkg.conf",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "usr/share/sddm/themes/star-rail",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": "Pictures/Wallpapers",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".local/share/applications",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".local/share/icons",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".local/share/fonts",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/fontconfig",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/autostart",
+      "type": "tree"
+    },
+    {
+      "root": "system",
+      "path": "etc/ufw/ufw.conf",
+      "type": "file"
+    },
+    {
+      "root": "system",
+      "path": "etc/ufw/user.rules",
+      "type": "file"
+    },
+    {
+      "root": "system",
+      "path": "etc/ufw/user6.rules",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".aws/config",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/rclone/rclone.conf",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/gcloud/configurations",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".local/state/noctalia/plugins/materialized",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/Thunar",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/menus",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/htop",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/procps",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/rncbc.org",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/herdr",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".config/yazi",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".lmstudio/config-presets",
+      "type": "tree"
+    },
+    {
+      "root": "home",
+      "path": ".lmstudio/settings.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".lmstudio/mcp.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".config/obsidian/obsidian.json",
+      "type": "file"
+    },
+    {
+      "root": "home",
+      "path": ".local/state/noctalia/.setup-complete",
+      "type": "file"
+    },
+    {
+      "root": "system",
+      "path": "usr/local/bin/remove-nvidia",
+      "type": "file",
+      "hardware": true
+    },
+    {
+      "root": "system",
+      "path": "etc/localtime",
+      "type": "file",
+      "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "etc/auto-cpufreq.conf",
+      "type": "file",
+      "hardware": true
+    },
+    {
+      "root": "home",
+      "path": ".config/pipewire",
+      "type": "tree",
+      "hardware": false
+    },
+    {
+      "root": "home",
+      "path": ".config/wireplumber",
+      "type": "tree",
+      "hardware": false
+    },
+    {
+      "root": "home",
+      "path": ".local/state/wireplumber",
+      "type": "tree",
+      "hardware": true
+    },
+    {
+      "root": "home",
+      "path": ".codex/automations",
+      "type": "tree",
+      "hardware": false
+    }
+  ],
+  "global_excludes": [
+    ".git",
+    "node_modules",
+    "__pycache__",
+    ".venv",
+    "History",
+    "history",
+    "sessions",
+    "cache",
+    "Cache",
+    "logs",
+    "auth.json",
+    ".env",
+    "synced",
+    "skills-trash",
+    "worktrees",
+    "references",
+    "scripts/data"
+  ],
+  "excluded_tools": [
+    "devin",
+    "devin-desktop"
+  ],
+  "excluded_packages": [
+    "devin-desktop",
+    "cachyos-grub-theme"
+  ],
+  "vendor_installers": [
+    {
+      "name": "claude",
+      "url": "https://claude.ai/install.sh",
+      "shell": "bash",
+      "args": [
+        "latest"
+      ]
+    },
+    {
+      "name": "kiro-cli",
+      "url": "https://cli.kiro.dev/install",
+      "shell": "bash",
+      "args": []
+    },
+    {
+      "name": "no-mistakes",
+      "url": "https://raw.githubusercontent.com/kunchenguid/no-mistakes/main/docs/install.sh",
+      "shell": "sh",
+      "args": []
+    },
+    {
+      "name": "agy",
+      "url": "https://antigravity.google/cli/install.sh",
+      "shell": "bash",
+      "args": []
+    }
+  ],
+  "npm_extra": [
+    "@openai/codex",
+    "@github/copilot"
+  ],
+  "source_repos": [
+    {
+      "name": "camp-fi",
+      "url": "https://github.com/ashin-15/camp-fi.git",
+      "path": "Projects/wifi-auther",
+      "kind": "camp-fi"
+    },
+    {
+      "name": "hermes-agent",
+      "url": "https://github.com/NousResearch/hermes-agent.git",
+      "path": ".hermes/hermes-agent",
+      "kind": "hermes"
+    }
+  ],
+  "excluded_files": [
+    {
+      "path": ".config/opencode/service.json",
+      "reason": "This file contains only a service password; let OpenCode recreate its credential instead of deploying an empty password."
+    }
+  ]
+}

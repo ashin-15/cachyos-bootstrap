@@ -1,0 +1,2 @@
+rustlings v6.5.0:
+    rustlings

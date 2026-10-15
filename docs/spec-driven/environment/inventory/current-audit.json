@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "captured_at": "2026-10-15T19:51:57.977625+00:00",
+  "public_files_reviewed": 38,
+  "deployment_entries": 805,
+  "payload_files_hash_matched": 790,
+  "payload_bytes": 508630190,
+  "recognized_credential_signatures": 0,
+  "required_unresolved_sources": 0,
+  "preexisting_broken_sources_excluded": 25,
+  "credential_configurations_redacted": 2,
+  "package_inventory_entries": 1533,
+  "package_install_intents": 304,
+  "aur_recipe_sources_identified": 19,
+  "aur_sources_unresolved": [],
+  "system_enabled_units": 32,
+  "user_enabled_units": 8,
+  "large_payloads_using_lfs": 4,
+  "limits": [
+    "Pattern checks do not prove absence of every possible secret.",
+    "No installation, VM, test suite, reboot, greeter login, or desktop acceptance run."
+  ]
+}

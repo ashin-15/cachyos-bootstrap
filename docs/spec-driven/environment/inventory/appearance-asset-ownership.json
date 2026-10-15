@@ -1,0 +1,62 @@
+[
+  {
+    "path": "/usr/share/grub/themes/cachyos/theme.txt",
+    "bytes": 817,
+    "package_owner": "cachyos-grub-theme"
+  },
+  {
+    "path": "/usr/share/plymouth/themes/cachyos-bootanimation/cachyos-bootanimation.plymouth",
+    "bytes": 1300,
+    "package_owner": "cachyos-plymouth-bootanimation"
+  },
+  {
+    "path": "/usr/share/fonts/ARCADECLASSIC.TTF",
+    "bytes": 17296,
+    "package_owner": null
+  },
+  {
+    "path": "/usr/share/fonts/ESPACION.ttf",
+    "bytes": 77904,
+    "package_owner": null
+  },
+  {
+    "path": "/usr/share/fonts/Electroharmonix.otf",
+    "bytes": 25980,
+    "package_owner": null
+  },
+  {
+    "path": "/usr/share/fonts/Fragile Bombers Attack.otf",
+    "bytes": 404760,
+    "package_owner": null
+  },
+  {
+    "path": "/usr/share/fonts/Fragile Bombers Down.otf",
+    "bytes": 742808,
+    "package_owner": null
+  },
+  {
+    "path": "/usr/share/fonts/Fragile Bombers.otf",
+    "bytes": 29716,
+    "package_owner": null
+  },
+  {
+    "path": "/usr/share/fonts/KogniGear.ttf",
+    "bytes": 45108,
+    "package_owner": null
+  },
+  {
+    "path": "/usr/share/fonts/Orbitron Black.ttf",
+    "bytes": 47256,
+    "package_owner": null
+  },
+  {
+    "path": "/usr/share/fonts/Thunderman.ttf",
+    "bytes": 38032,
+    "package_owner": null
+  },
+  {
+    "path": "/usr/share/fonts/pixelon.regular.ttf",
+    "bytes": 18056,
+    "package_owner": null
+  }
+]
