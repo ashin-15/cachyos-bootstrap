@@ -73,6 +73,15 @@ power-management components, scheduled maintenance, audio/keyring sockets, and c
 Intel-specific service enablement is conditional on the CPU vendor. Unit-template instances
 belong to the target's existing setup.
 
+The bootstrap also deploys and enables `cachyos-capture.timer`, an hourly persistent
+eligibility check for local captures separated by at least 96 hours. Its state is kept
+under `~/.local/state/cachyos-bootstrap/capture.json`, outside both Git repositories.
+Reboots preserve this timestamp; overdue work runs after the next login. It does not
+automatically commit or push. Check `journalctl --user -u cachyos-capture.service` for
+failures. Resolve the reported problem; the next hourly check retries without moving
+the successful-capture timestamp. Lock contention with manual capture or bootstrap
+also retries later. Restore/rerun preserves an existing schedule timestamp.
+
 MariaDB is initialized only when its system tables are absent and its data directory is empty.
 Existing database data is preserved. Rebuilding the environment does not recover its prior
 database contents, container volumes, VPN credentials, or project files.

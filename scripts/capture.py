@@ -15,6 +15,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 from common import (
+    CAPTURE_STATE,
     HOME,
     PRIVATE,
     REPO,
@@ -594,9 +595,8 @@ class Capture:
             "Review deployment.json notes and both Git diffs before committing. Nothing was published."
         )
         if unresolved:
-            print(
-                "Capture has unresolved sources; see private deployment.json.",
-                file=sys.stderr,
+            raise RuntimeError(
+                "Capture has unresolved sources; see private deployment.json."
             )
 
 
@@ -606,7 +606,12 @@ def main() -> None:
     args = parser.parse_args()
     ensure_user()
     with lock(REPO / ".state/operation.lock"):
-        Capture(args.settings.expanduser().resolve()).execute()
+        settings = args.settings.expanduser().resolve()
+        Capture(settings).execute()
+        if settings == PRIVATE.resolve():
+            write_json(
+                CAPTURE_STATE, {"last_success_at": datetime.now(UTC).isoformat()}
+            )
 
 
 if __name__ == "__main__":

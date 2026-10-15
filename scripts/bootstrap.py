@@ -15,6 +15,7 @@ from datetime import UTC, datetime
 from pathlib import Path
 
 import android_sdk
+import schedule
 from common import (
     HOME,
     PRIVATE,
@@ -100,6 +101,7 @@ class Bootstrap:
                 "extensions",
                 "editor-tools",
                 "system-settings",
+                "capture-schedule",
                 "services",
             ],
             "prompts": [
@@ -567,6 +569,13 @@ class Bootstrap:
                 "Plymouth integration requires the target mkinitcpio boot stack"
             )
 
+    def capture_schedule(self) -> None:
+        for name, text in schedule.unit_files().items():
+            self.deploy_bytes(
+                text.encode(), "home", ".config/systemd/user/" + name, 0o644
+            )
+        schedule.initialize()
+
     def services(self) -> None:
         units = read_json(REPO / "manifests/services.json")
         display = Path("/etc/systemd/system/display-manager.service")
@@ -629,6 +638,7 @@ class Bootstrap:
         for unit in ["camp-fi.service", "no-mistakes-daemon-786ed5c5.service"]:
             run(["systemctl", "--user", "start", unit])
             run(["systemctl", "--user", "is-active", "--quiet", unit])
+        run(["systemctl", "--user", "enable", "--now", schedule.TIMER])
         self.report["enabled_units"] = units
 
     def apply(self) -> None:
@@ -648,6 +658,7 @@ class Bootstrap:
                 ("extensions", self.extensions),
                 ("editor-tools", self.editor_tools),
                 ("system-settings", self.system_settings),
+                ("capture-schedule", self.capture_schedule),
                 ("services", self.services),
             ]
             for name, operation in operations:

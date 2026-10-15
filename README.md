@@ -61,6 +61,35 @@ pushes. Review both repositories and `deployment.json` notes before publishing c
 Only explicit allowlisted paths are collected. Existing broken sources are reported
 separately from missing required working sources.
 
+### Automatic capture every four days
+
+Bootstrap installs and enables the user timer `cachyos-capture.timer`. To install or
+refresh that schedule on an existing setup:
+
+```bash
+python3 scripts/schedule.py --install
+```
+
+The first capture becomes due 96 hours after schedule installation. Subsequent captures
+become due 96 hours after the last successful scheduled or manual capture. An hourly
+check runs the capture once due, normally within the following hour. The schedule state
+survives reboots. After time offline, it catches up at the next user session; it does not
+wake the computer or require the user to remain logged in. Failed captures retry at the
+next check. Captures with unresolved required sources count as failures.
+
+Captured changes remain local. Review, commit, and push both repositories yourself.
+Inspect or stop the schedule with:
+
+```bash
+systemctl --user status cachyos-capture.timer
+journalctl --user -u cachyos-capture.service
+systemctl --user disable --now cachyos-capture.timer
+```
+
+The timer's next trigger is the next eligibility check, not necessarily the next full
+capture. The service journal records the next eligible capture time when it skips.
+The durable timestamp is `~/.local/state/cachyos-bootstrap/capture.json`.
+
 Large local executable artifacts use Git LFS. Keep LFS enabled in the private checkout.
 The installer verifies every private file against its deployment checksum before applying it.
 

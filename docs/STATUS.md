@@ -5,6 +5,8 @@ Updated: 2026-10-16. Implementation approved; Devin and GRUB appearance excluded
 ## Implemented
 
 - Public bootstrap, capture, privacy/integrity audit, and rollback entry points.
+- User-authorized four-day local capture schedule, with persistent hourly eligibility
+  checks, login catch-up, success timestamps, failure retry, and bootstrap integration.
 - Private checksummed deployment manifest: 805 entries, 790 payload files, 508,630,190 bytes, plus dconf. Four large executables use Git LFS.
 - 1,533 diagnostic package records; 304 explicit/runtime installation intents, with current dependencies resolved from package metadata. Nineteen requested AUR sources were identified through the official API; none unresolved.
 - Forty enabled system/user units recorded, including custom dependencies and retained disabled Hermes gateway intent.
@@ -16,8 +18,14 @@ Updated: 2026-10-16. Implementation approved; Devin and GRUB appearance excluded
 - Capture executed successfully. Every captured payload hash matched the manifest during the audit.
 - Recognized credential-signature scan found zero matches in reviewed public files and private payloads. This is not proof of absence of every possible secret.
 - Ruff lint/format and Bash syntax checks passed. The non-mutating plan was displayed successfully.
+- The capture timer is installed and observed as enabled and active in the current
+  user session. Initial eligibility is 2026-10-20 01:38 IST, with the full capture due
+  at the following hourly check, around 02:00 IST. A four-day elapsed run has not yet
+  been observed; no capture was forced to exercise the scheduler.
 - AUR source and Google stable SDK catalog lookups succeeded. These prove metadata/source resolution, not successful installation.
-- No package installation, upgrade, service activation, reboot, SDK installation, vendor installer, VM, or test suite was run against the working system.
+- No package installation, upgrade, reboot, SDK installation, vendor installer, VM, or
+  test suite was run against the working system. The user capture timer is the only
+  service activation authorized by the scheduling follow-up.
 
 ## Acceptance matrix
 
