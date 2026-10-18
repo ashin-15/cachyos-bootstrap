@@ -474,11 +474,6 @@
       "hardware": false
     },
     {
-      "root": "system",
-      "path": "usr/share/sddm/themes/star-rail",
-      "type": "tree"
-    },
-    {
       "root": "home",
       "path": "Pictures/Wallpapers",
       "type": "tree"
@@ -644,6 +639,11 @@
       "path": ".codex/automations",
       "type": "tree",
       "hardware": false
+    },
+    {
+      "root": "system",
+      "path": "usr/share/sddm/themes/star-rail",
+      "type": "tree"
     }
   ],
   "global_excludes": [
