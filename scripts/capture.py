@@ -92,7 +92,7 @@ def shell_template(text: str) -> str:
     )
     text = re.sub(
         r"^alias update=.*$",
-        "alias update='~/Projects/cachyos-bootstrap/capture.sh'",
+        "alias update='~/Repos/cachyos-bootstrap/capture.sh'",
         text,
         flags=re.MULTILINE,
     )

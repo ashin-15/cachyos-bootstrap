@@ -15,7 +15,7 @@ from typing import Any
 
 REPO = Path(__file__).resolve().parents[1]
 HOME = Path("/home/ashin")
-PRIVATE = HOME / "Projects/cachyos-settings"
+PRIVATE = HOME / "Repos/cachyos-settings"
 CAPTURE_STATE = HOME / ".local/state/cachyos-bootstrap/capture.json"
 SECRET_KEY = re.compile(
     r"(?i)(?:^|[._-])(?:api[_-]?key|access[_-]?key(?:[_-]?id)?|secret[_-]?key|"

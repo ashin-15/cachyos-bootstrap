@@ -29,7 +29,7 @@ if [[ ! -f $ROOT/scripts/bootstrap.py || ! -f $ROOT/manifests/capture.json || $(
   if ! command -v git >/dev/null; then
     sudo pacman -Syu --needed git
   fi
-  ROOT=$HOME/Projects/cachyos-bootstrap
+  ROOT=$HOME/Repos/cachyos-bootstrap
   if [[ -e $ROOT ]]; then
     if [[ ! -f $ROOT/scripts/bootstrap.py ]]; then
       printf '%s\n' "Existing destination is not a bootstrap checkout: $ROOT" >&2
