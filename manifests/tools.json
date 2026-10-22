@@ -7,9 +7,11 @@
     "@github/copilot",
     "@openai/codex",
     "lavish-axi",
+    "omnirush",
     "playwright",
     "sql.js",
     "systray2",
+    "tsrs",
     "typescript",
     "typescript-language-server"
   ],
