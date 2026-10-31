@@ -3,6 +3,7 @@
   "npm": [
     "@agentmemory/agentmemory",
     "@earendil-works/pi-coding-agent",
+    "@excalidraw/cli",
     "@fission-ai/openspec",
     "@github/copilot",
     "@openai/codex",
