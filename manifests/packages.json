@@ -8,7 +8,7 @@
   "packages": [
     {
       "name": "7zip",
-      "observed_version": "26.05-1.1",
+      "observed_version": "26.06-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -91,6 +91,13 @@
       "runtime_required": false
     },
     {
+      "name": "ai-usagebar-bin",
+      "observed_version": "1.51.0-1",
+      "explicit": true,
+      "observed_foreign": true,
+      "runtime_required": false
+    },
+    {
       "name": "alacritty",
       "observed_version": "0.17.0-1.2",
       "explicit": true,
@@ -99,7 +106,7 @@
     },
     {
       "name": "alsa-card-profiles",
-      "observed_version": "1:1.6.10-1",
+      "observed_version": "1:1.6.11-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -162,7 +169,7 @@
     },
     {
       "name": "antigravity",
-      "observed_version": "2.28.1-1",
+      "observed_version": "2.31.0-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
@@ -176,14 +183,14 @@
     },
     {
       "name": "appstream",
-      "observed_version": "1.2.2-1.1",
+      "observed_version": "1.2.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "aquamarine",
-      "observed_version": "0.15.1-1.1",
+      "observed_version": "0.16.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -232,7 +239,7 @@
     },
     {
       "name": "attica",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -253,7 +260,7 @@
     },
     {
       "name": "auto-cpufreq",
-      "observed_version": "3.1.0-1",
+      "observed_version": "3.2.0-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -267,7 +274,7 @@
     },
     {
       "name": "automake",
-      "observed_version": "1.19-1",
+      "observed_version": "1.20-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -302,14 +309,14 @@
     },
     {
       "name": "baloo",
-      "observed_version": "6.31.0-2.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "baloo-widgets",
-      "observed_version": "26.08.2-1.1",
+      "observed_version": "26.08.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -365,7 +372,7 @@
     },
     {
       "name": "bind",
-      "observed_version": "9.20.30-1.1",
+      "observed_version": "9.20.30-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -393,77 +400,77 @@
     },
     {
       "name": "bluez",
-      "observed_version": "5.87-2.1",
+      "observed_version": "5.88-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "bluez-hid2hci",
-      "observed_version": "5.87-2.1",
+      "observed_version": "5.88-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "bluez-libs",
-      "observed_version": "5.87-2.1",
+      "observed_version": "5.88-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "bluez-obex",
-      "observed_version": "5.87-2.1",
+      "observed_version": "5.88-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "bluez-utils",
-      "observed_version": "5.87-2.1",
+      "observed_version": "5.88-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "boost-libs",
-      "observed_version": "1.92.0-1.1",
+      "observed_version": "1.92.0-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "bottom",
-      "observed_version": "0.14.9-1.1",
+      "observed_version": "0.15.0-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "bpf",
-      "observed_version": "7.3-1",
+      "observed_version": "7.3.4-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "brave-bin",
-      "observed_version": "1:1.98.62-1",
+      "observed_version": "1:1.99.57-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "breeze-cursors",
-      "observed_version": "6.8.2-1.1",
+      "observed_version": "6.8.3-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "breeze-icons",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -526,7 +533,7 @@
     },
     {
       "name": "ca-certificates-mozilla",
-      "observed_version": "3.132-1.1",
+      "observed_version": "3.133-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -624,14 +631,14 @@
     },
     {
       "name": "cachyos-rate-mirrors",
-      "observed_version": "26-2",
+      "observed_version": "27-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "cachyos-settings",
-      "observed_version": "1:1.4.1-1",
+      "observed_version": "1:1.4.4-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -707,6 +714,13 @@
       "runtime_required": false
     },
     {
+      "name": "cdparanoia",
+      "observed_version": "10.2-10.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "cfitsio",
       "observed_version": "1:4.7.0-1.1",
       "explicit": false,
@@ -715,7 +729,7 @@
     },
     {
       "name": "chatgpt-bin",
-      "observed_version": "26.1027.30824-1",
+      "observed_version": "26.1111.21308-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -743,7 +757,7 @@
     },
     {
       "name": "cinnamon-translations",
-      "observed_version": "6.6.2-1",
+      "observed_version": "6.8.0-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -757,14 +771,14 @@
     },
     {
       "name": "clang",
-      "observed_version": "23.1.4-2",
+      "observed_version": "23.1.5-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "clang-libs",
-      "observed_version": "23.1.4-2",
+      "observed_version": "23.1.5-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -784,6 +798,13 @@
       "runtime_required": false
     },
     {
+      "name": "claude-desktop",
+      "observed_version": "5.11492.5-1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "cliphist",
       "observed_version": "1:0.7.0-2.1",
       "explicit": false,
@@ -792,7 +813,7 @@
     },
     {
       "name": "cloudflared",
-      "observed_version": "2026.10.2-1.1",
+      "observed_version": "2026.11.0-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -806,7 +827,7 @@
     },
     {
       "name": "cmake",
-      "observed_version": "4.4.5-1.1",
+      "observed_version": "4.5.0-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -827,7 +848,7 @@
     },
     {
       "name": "compiler-rt",
-      "observed_version": "23.1.4-2",
+      "observed_version": "23.1.5-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -869,7 +890,7 @@
     },
     {
       "name": "coreutils",
-      "observed_version": "9.12-2.1",
+      "observed_version": "9.12-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -890,42 +911,42 @@
     },
     {
       "name": "cpupower",
-      "observed_version": "7.3-1",
+      "observed_version": "7.3.4-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
-      "name": "cronie",
-      "observed_version": "1.7.2-2.1",
-      "explicit": false,
+      "name": "crypto++",
+      "observed_version": "8.9.0-3.1",
+      "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "cryptsetup",
-      "observed_version": "2.8.8-1.1",
+      "observed_version": "2.8.8-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "curl",
-      "observed_version": "8.23.0-1",
+      "observed_version": "8.23.0-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": true
     },
     {
       "name": "cursor-bin",
-      "observed_version": "3.27.22-1",
+      "observed_version": "3.30.14-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "cython",
-      "observed_version": "3.3.0-2.1",
+      "observed_version": "3.3.1-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -946,7 +967,7 @@
     },
     {
       "name": "dbus",
-      "observed_version": "1.16.2-2.1",
+      "observed_version": "1.16.4-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -995,14 +1016,14 @@
     },
     {
       "name": "debugedit",
-      "observed_version": "5.3-2",
+      "observed_version": "5.4-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "deckcraft-bin",
-      "observed_version": "0.13.1-1",
+      "observed_version": "0.18.1-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
@@ -1023,7 +1044,7 @@
     },
     {
       "name": "desktop-file-utils",
-      "observed_version": "0.28-1.1",
+      "observed_version": "0.29-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1037,7 +1058,7 @@
     },
     {
       "name": "dhcpcd",
-      "observed_version": "10.5.2-1.1",
+      "observed_version": "10.5.2-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1058,7 +1079,7 @@
     },
     {
       "name": "discord",
-      "observed_version": "1:1.0.168-1",
+      "observed_version": "1:1.0.169-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1093,22 +1114,15 @@
     },
     {
       "name": "docker",
-      "observed_version": "1:29.9.2-1.1",
+      "observed_version": "1:29.9.3-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "docker-compose",
-      "observed_version": "5.6.1-1.1",
+      "observed_version": "5.7.1-1.1",
       "explicit": true,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
-      "name": "dolphin",
-      "observed_version": "26.08.2-1.1",
-      "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
@@ -1122,6 +1136,13 @@
     {
       "name": "double-conversion",
       "observed_version": "3.4.0-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "dtc",
+      "observed_version": "1:1.8.1-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1162,6 +1183,13 @@
       "runtime_required": false
     },
     {
+      "name": "edk2-ovmf",
+      "observed_version": "202608-1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "efibootmgr",
       "observed_version": "18-4.1",
       "explicit": true,
@@ -1170,7 +1198,7 @@
     },
     {
       "name": "efitools",
-      "observed_version": "1.9.2-7.1",
+      "observed_version": "1.9.2-8.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1204,6 +1232,20 @@
       "runtime_required": false
     },
     {
+      "name": "electron43",
+      "observed_version": "43.8.9-1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "electron44",
+      "observed_version": "44.11.2-1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "elfutils",
       "observed_version": "0.197-1",
       "explicit": false,
@@ -1226,9 +1268,9 @@
     },
     {
       "name": "epic-games-launcher-bin",
-      "observed_version": "0.108.0-1",
+      "observed_version": "0.115.0-1",
       "explicit": true,
-      "observed_foreign": true,
+      "observed_foreign": false,
       "runtime_required": false
     },
     {
@@ -1247,7 +1289,7 @@
     },
     {
       "name": "exfatprogs",
-      "observed_version": "1.4.3-1.1",
+      "observed_version": "1.4.4-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1268,7 +1310,7 @@
     },
     {
       "name": "expat",
-      "observed_version": "2.9.0-1.1",
+      "observed_version": "2.10.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1303,14 +1345,14 @@
     },
     {
       "name": "fakeroot",
-      "observed_version": "1:1.37.2-3.1",
+      "observed_version": "2:1.37.2-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "fastfetch",
-      "observed_version": "2.70.0-1.1",
+      "observed_version": "2.71.0-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1324,7 +1366,7 @@
     },
     {
       "name": "ffmpeg",
-      "observed_version": "2:9.0.2-2.1",
+      "observed_version": "2:9.0.2-5",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1352,7 +1394,7 @@
     },
     {
       "name": "file-roller",
-      "observed_version": "44.7-1.1",
+      "observed_version": "44.8-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1380,7 +1422,7 @@
     },
     {
       "name": "fish-autopair",
-      "observed_version": "1.0.4-2",
+      "observed_version": "1.0.4-3",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1408,7 +1450,7 @@
     },
     {
       "name": "flex",
-      "observed_version": "2.6.4-6.1",
+      "observed_version": "2.6.10-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1422,7 +1464,7 @@
     },
     {
       "name": "fluidsynth",
-      "observed_version": "2.6.1-1.1",
+      "observed_version": "2.6.2-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1443,7 +1485,7 @@
     },
     {
       "name": "freebuff-bin",
-      "observed_version": "0.2.35-1",
+      "observed_version": "0.2.36-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
@@ -1491,6 +1533,13 @@
       "runtime_required": false
     },
     {
+      "name": "fuse2",
+      "observed_version": "2.9.9-6",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "fuse3",
       "observed_version": "3.18.3-1.1",
       "explicit": false,
@@ -1499,7 +1548,7 @@
     },
     {
       "name": "fwupd",
-      "observed_version": "2.1.9-1.1",
+      "observed_version": "2.1.10-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1513,7 +1562,7 @@
     },
     {
       "name": "fzf",
-      "observed_version": "0.74.5-1.1",
+      "observed_version": "0.75.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": true
@@ -1604,21 +1653,21 @@
     },
     {
       "name": "ggml",
-      "observed_version": "0.26.0-1.1",
+      "observed_version": "0.29.0-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "ggml-vulkan",
-      "observed_version": "0.26.0-1.1",
+      "observed_version": "0.29.0-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "ghidra",
-      "observed_version": "12.1.2-2.1",
+      "observed_version": "12.2-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1639,7 +1688,7 @@
     },
     {
       "name": "git",
-      "observed_version": "2.56.0-1.1",
+      "observed_version": "2.56.1-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": true
@@ -1653,14 +1702,14 @@
     },
     {
       "name": "github-cli",
-      "observed_version": "2.102.1-1.1",
+      "observed_version": "2.104.0-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": true
     },
     {
       "name": "glances",
-      "observed_version": "4.5.8-1",
+      "observed_version": "4.5.9-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1723,7 +1772,7 @@
     },
     {
       "name": "glycin",
-      "observed_version": "2.2.5-1.1",
+      "observed_version": "2.2.6-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1786,7 +1835,7 @@
     },
     {
       "name": "go",
-      "observed_version": "2:1.27.3-2",
+      "observed_version": "2:1.27.4-3",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1807,21 +1856,21 @@
     },
     {
       "name": "google-cloud-cli",
-      "observed_version": "591.0.0-1",
+      "observed_version": "593.0.0-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
     },
     {
       "name": "google-cloud-cli-bq",
-      "observed_version": "591.0.0-1",
+      "observed_version": "593.0.0-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
     },
     {
       "name": "gperftools",
-      "observed_version": "2.19.1-1.1",
+      "observed_version": "2.19.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -1848,8 +1897,15 @@
       "runtime_required": false
     },
     {
+      "name": "gpu-screen-recorder",
+      "observed_version": "6.1.7-1.1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "gradle",
-      "observed_version": "9.8.2-1",
+      "observed_version": "9.9.0-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1898,7 +1954,7 @@
     },
     {
       "name": "gridcraft-bin",
-      "observed_version": "0.14.2-1",
+      "observed_version": "0.19.1-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
@@ -1933,7 +1989,7 @@
     },
     {
       "name": "grub-hook",
-      "observed_version": "2.1-1",
+      "observed_version": "2.1-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -1975,70 +2031,77 @@
     },
     {
       "name": "gssproxy",
-      "observed_version": "0.9.2-3.1",
+      "observed_version": "0.9.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "gst-libav",
-      "observed_version": "1.28.8-1",
+      "observed_version": "1.28.9-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "gst-plugin-pipewire",
-      "observed_version": "1:1.6.10-1",
+      "observed_version": "1:1.6.11-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "gst-plugin-va",
-      "observed_version": "1.28.8-1",
+      "observed_version": "1.28.9-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "gst-plugins-bad",
-      "observed_version": "1.28.8-1",
+      "observed_version": "1.28.9-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "gst-plugins-bad-libs",
-      "observed_version": "1.28.8-1",
+      "observed_version": "1.28.9-2",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "gst-plugins-base",
+      "observed_version": "1.28.9-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "gst-plugins-base-libs",
-      "observed_version": "1.28.8-1",
+      "observed_version": "1.28.9-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "gst-plugins-good",
-      "observed_version": "1.28.8-1",
+      "observed_version": "1.28.9-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "gst-plugins-ugly",
-      "observed_version": "1.28.8-1",
+      "observed_version": "1.28.9-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "gstreamer",
-      "observed_version": "1.28.8-1",
+      "observed_version": "1.28.9-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2072,8 +2135,15 @@
       "runtime_required": false
     },
     {
+      "name": "gtk-vnc",
+      "observed_version": "1.6.0-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "gtk2",
-      "observed_version": "2.24.33-5",
+      "observed_version": "2.24.33-6",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2171,14 +2241,14 @@
     },
     {
       "name": "harfbuzz",
-      "observed_version": "15.0.0-1.1",
+      "observed_version": "15.1.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "harfbuzz-icu",
-      "observed_version": "15.0.0-1.1",
+      "observed_version": "15.1.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2193,6 +2263,13 @@
     {
       "name": "hdparm",
       "observed_version": "9.65-3.1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "heimdall",
+      "observed_version": "2.2.2-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -2227,7 +2304,7 @@
     },
     {
       "name": "hunspell",
-      "observed_version": "1.7.5-1.1",
+      "observed_version": "1.7.6-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2262,35 +2339,35 @@
     },
     {
       "name": "hyphen",
-      "observed_version": "2.8.9-1.1",
+      "observed_version": "2.8.10-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "hyprcursor",
-      "observed_version": "0.1.13-7.1",
+      "observed_version": "0.1.14-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "hyprgraphics",
-      "observed_version": "0.5.1-4.1",
+      "observed_version": "0.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "hyprland",
-      "observed_version": "0.57.0-1.1",
+      "observed_version": "0.57.2-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "hyprland-guiutils",
-      "observed_version": "0.2.2-4.1",
+      "observed_version": "0.2.2-6.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2311,14 +2388,14 @@
     },
     {
       "name": "hyprpicker",
-      "observed_version": "0.4.7-4.1",
+      "observed_version": "0.4.8-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "hyprpolkitagent",
-      "observed_version": "0.2.0-1.1",
+      "observed_version": "0.2.0-3.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -2332,7 +2409,7 @@
     },
     {
       "name": "hyprtoolkit",
-      "observed_version": "0.6.0-1.1",
+      "observed_version": "0.6.0-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2374,7 +2451,7 @@
     },
     {
       "name": "imagemagick",
-      "observed_version": "7.1.2.34-2.1",
+      "observed_version": "7.1.2.35-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2387,8 +2464,15 @@
       "runtime_required": false
     },
     {
+      "name": "img2pdf",
+      "observed_version": "0.6.3-1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "imlib2",
-      "observed_version": "1.12.7-3.1",
+      "observed_version": "1.13.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2409,7 +2493,7 @@
     },
     {
       "name": "intel-gmmlib",
-      "observed_version": "22.10.0-1.1",
+      "observed_version": "22.10.2-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2437,14 +2521,14 @@
     },
     {
       "name": "intel-ucode",
-      "observed_version": "20260925-1",
+      "observed_version": "20261110-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "inxi",
-      "observed_version": "3.3.41.1-1",
+      "observed_version": "3.3.41.1-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2549,7 +2633,7 @@
     },
     {
       "name": "jdk21-openjdk",
-      "observed_version": "21.0.12.1.u1-2",
+      "observed_version": "21.0.13.0.3.u1-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2598,7 +2682,7 @@
     },
     {
       "name": "karchive",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2612,91 +2696,91 @@
     },
     {
       "name": "kbookmarks",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kcmutils",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kcodecs",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kcolorscheme",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kcompletion",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kconfig",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kconfigwidgets",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kcoreaddons",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kcrash",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kdbusaddons",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kde-cli-tools",
-      "observed_version": "6.8.2-1.1",
+      "observed_version": "6.8.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kdesu",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kdnssd",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2724,119 +2808,119 @@
     },
     {
       "name": "kfilemetadata",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kglobalaccel",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kguiaddons",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "ki18n",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kiconthemes",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kidletime",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kio",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kio-extras",
-      "observed_version": "26.08.2-1.1",
+      "observed_version": "26.08.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kirigami",
-      "observed_version": "6.31.0-1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kitemviews",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kitty",
-      "observed_version": "0.49.2-1.1",
+      "observed_version": "0.50.0-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kitty-shell-integration",
-      "observed_version": "0.49.2-1.1",
+      "observed_version": "0.50.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kitty-terminfo",
-      "observed_version": "0.49.2-1.1",
+      "observed_version": "0.50.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kjobwidgets",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kmod",
-      "observed_version": "34.2-1",
+      "observed_version": "34.3-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "knewstuff",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "knotifications",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2850,91 +2934,91 @@
     },
     {
       "name": "kpackage",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kparts",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kpty",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "krb5",
-      "observed_version": "1.22.2-1.1",
+      "observed_version": "1.22.2-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kservice",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "ktextwidgets",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kuserfeedback",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kvantum",
-      "observed_version": "1.1.8-1.1",
+      "observed_version": "1.1.9-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kvantum-qt5",
-      "observed_version": "1.1.8-1.1",
+      "observed_version": "1.1.9-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kwallet",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kwidgetsaddons",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kwindowsystem",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "kxmlgui",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2962,21 +3046,21 @@
     },
     {
       "name": "layer-shell-qt",
-      "observed_version": "6.8.2-1.1",
+      "observed_version": "6.8.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lazygit",
-      "observed_version": "0.66.2-1.1",
+      "observed_version": "0.66.3-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lcms2",
-      "observed_version": "2.19.1-1.1",
+      "observed_version": "2.20-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -2993,13 +3077,6 @@
       "observed_version": "1.9.1-1.1",
       "explicit": false,
       "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
-      "name": "learnharness",
-      "observed_version": "0.3.7-1",
-      "explicit": true,
-      "observed_foreign": true,
       "runtime_required": false
     },
     {
@@ -3032,14 +3109,14 @@
     },
     {
       "name": "lib32-clang",
-      "observed_version": "23.1.4-1",
+      "observed_version": "23.1.5-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lib32-curl",
-      "observed_version": "8.23.0-1",
+      "observed_version": "8.23.0-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3053,7 +3130,7 @@
     },
     {
       "name": "lib32-expat",
-      "observed_version": "2.9.0-1",
+      "observed_version": "2.10.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3109,7 +3186,7 @@
     },
     {
       "name": "lib32-krb5",
-      "observed_version": "1.22.2-1",
+      "observed_version": "1.22.2-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3172,28 +3249,28 @@
     },
     {
       "name": "lib32-libldap",
-      "observed_version": "2.7.2-1",
+      "observed_version": "2.7.2-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lib32-libnghttp2",
-      "observed_version": "1.70.0-1",
+      "observed_version": "1.71.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lib32-libnghttp3",
-      "observed_version": "1.18.0-1",
+      "observed_version": "1.19.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lib32-libngtcp2",
-      "observed_version": "1.25.0-1",
+      "observed_version": "1.26.0-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3214,7 +3291,7 @@
     },
     {
       "name": "lib32-libssh2",
-      "observed_version": "1.11.1-5",
+      "observed_version": "1.11.1-6",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3235,7 +3312,7 @@
     },
     {
       "name": "lib32-libx11",
-      "observed_version": "1.8.13-1",
+      "observed_version": "1.8.14-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3298,7 +3375,7 @@
     },
     {
       "name": "lib32-llvm-libs",
-      "observed_version": "1:23.1.4-1",
+      "observed_version": "1:23.1.5-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3312,7 +3389,7 @@
     },
     {
       "name": "lib32-mesa",
-      "observed_version": "3:26.2.5-1",
+      "observed_version": "3:26.2.6-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -3333,28 +3410,28 @@
     },
     {
       "name": "lib32-opencl-mesa",
-      "observed_version": "3:26.2.5-1",
+      "observed_version": "3:26.2.6-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lib32-openssl",
-      "observed_version": "1:3.6.5-1",
+      "observed_version": "1:4.1.0-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lib32-p11-kit",
-      "observed_version": "0.26.5-1",
+      "observed_version": "0.26.6-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lib32-spirv-llvm-translator",
-      "observed_version": "23.1.2-1",
+      "observed_version": "23.1.3-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3368,7 +3445,7 @@
     },
     {
       "name": "lib32-systemd",
-      "observed_version": "262.1-1",
+      "observed_version": "262.2-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3382,14 +3459,14 @@
     },
     {
       "name": "lib32-vulkan-intel",
-      "observed_version": "3:26.2.5-1",
+      "observed_version": "3:26.2.6-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lib32-vulkan-mesa-implicit-layers",
-      "observed_version": "3:26.2.5-1",
+      "observed_version": "3:26.2.6-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3466,7 +3543,7 @@
     },
     {
       "name": "libarchive",
-      "observed_version": "3.8.10-1.1",
+      "observed_version": "3.8.11-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3571,63 +3648,63 @@
     },
     {
       "name": "libblockdev",
-      "observed_version": "3.5.0-2.1",
+      "observed_version": "3.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libblockdev-crypto",
-      "observed_version": "3.5.0-2.1",
+      "observed_version": "3.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libblockdev-fs",
-      "observed_version": "3.5.0-2.1",
+      "observed_version": "3.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libblockdev-loop",
-      "observed_version": "3.5.0-2.1",
+      "observed_version": "3.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libblockdev-mdraid",
-      "observed_version": "3.5.0-2.1",
+      "observed_version": "3.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libblockdev-nvme",
-      "observed_version": "3.5.0-2.1",
+      "observed_version": "3.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libblockdev-part",
-      "observed_version": "3.5.0-2.1",
+      "observed_version": "3.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libblockdev-smart",
-      "observed_version": "3.5.0-2.1",
+      "observed_version": "3.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libblockdev-swap",
-      "observed_version": "3.5.0-2.1",
+      "observed_version": "3.6.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3641,7 +3718,7 @@
     },
     {
       "name": "libbpf",
-      "observed_version": "1.7.0-1.1",
+      "observed_version": "1.8.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3661,6 +3738,13 @@
       "runtime_required": false
     },
     {
+      "name": "libburn",
+      "observed_version": "1.5.8-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "libbytesize",
       "observed_version": "2.12-3.1",
       "explicit": false,
@@ -3670,6 +3754,13 @@
     {
       "name": "libcaca",
       "observed_version": "0.99.beta20-7.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libcacard",
+      "observed_version": "2.8.1-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3739,14 +3830,14 @@
     },
     {
       "name": "libclc",
-      "observed_version": "23.1.4-2",
+      "observed_version": "23.1.5-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libcloudproviders",
-      "observed_version": "0.4.1-1.1",
+      "observed_version": "0.4.2-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3774,7 +3865,7 @@
     },
     {
       "name": "libcurl-gnutls",
-      "observed_version": "8.23.0-1",
+      "observed_version": "8.23.0-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3949,7 +4040,7 @@
     },
     {
       "name": "libepubgen",
-      "observed_version": "0.1.1-6.1",
+      "observed_version": "0.1.2-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3970,7 +4061,7 @@
     },
     {
       "name": "libevent",
-      "observed_version": "2.1.13-2.1",
+      "observed_version": "2.1.13-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -3984,7 +4075,7 @@
     },
     {
       "name": "libexttextcat",
-      "observed_version": "3.4.8-1.1",
+      "observed_version": "3.4.9-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4005,7 +4096,7 @@
     },
     {
       "name": "libfido2",
-      "observed_version": "1.17.0-1.1",
+      "observed_version": "1.17.0-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4019,7 +4110,7 @@
     },
     {
       "name": "libfm-qt",
-      "observed_version": "2.4.0-4.1",
+      "observed_version": "2.5.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4124,7 +4215,7 @@
     },
     {
       "name": "libgit2",
-      "observed_version": "1:1.9.7-1.1",
+      "observed_version": "1:1.9.7-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4144,13 +4235,6 @@
       "runtime_required": false
     },
     {
-      "name": "libgnomekbd",
-      "observed_version": "1:3.28.1-2.1",
-      "explicit": false,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
       "name": "libgomp",
       "observed_version": "16.2.1+r23+gd564253eb6c8-3",
       "explicit": false,
@@ -4160,6 +4244,13 @@
     {
       "name": "libgoom2",
       "observed_version": "2k4-5",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libgovirt",
+      "observed_version": "2:0.3.11-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4215,7 +4306,7 @@
     },
     {
       "name": "libical",
-      "observed_version": "4.0.7-1.1",
+      "observed_version": "4.0.8-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4250,7 +4341,7 @@
     },
     {
       "name": "libimobiledevice",
-      "observed_version": "1.4.0-2.1",
+      "observed_version": "1.4.0-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4279,6 +4370,20 @@
     {
       "name": "libisl",
       "observed_version": "0.28-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libisoburn",
+      "observed_version": "1.5.8.2-1.1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libisofs",
+      "observed_version": "1.5.8.2-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4313,7 +4418,7 @@
     },
     {
       "name": "libkexiv2",
-      "observed_version": "26.08.2-1.1",
+      "observed_version": "26.08.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4348,7 +4453,7 @@
     },
     {
       "name": "libldap",
-      "observed_version": "2.7.2-2",
+      "observed_version": "2.7.2-3",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4383,14 +4488,14 @@
     },
     {
       "name": "libluv",
-      "observed_version": "1.52.1-1",
+      "observed_version": "1.53.0.1-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libmad",
-      "observed_version": "0.15.1b-10.1",
+      "observed_version": "0.16.5-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4488,14 +4593,14 @@
     },
     {
       "name": "libmodplug",
-      "observed_version": "0.8.9.0-7.1",
+      "observed_version": "0.8.9.2-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libmongocrypt",
-      "observed_version": "1.21.1-1",
+      "observed_version": "1.21.1-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4537,7 +4642,7 @@
     },
     {
       "name": "libmupdf",
-      "observed_version": "1.28.5-2.1",
+      "observed_version": "1.28.6-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4559,6 +4664,13 @@
     {
       "name": "libnautilus-extension",
       "observed_version": "51.1-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libnbd",
+      "observed_version": "1.24.4-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4614,21 +4726,21 @@
     },
     {
       "name": "libnghttp2",
-      "observed_version": "1.70.0-1.1",
+      "observed_version": "1.71.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libnghttp3",
-      "observed_version": "1.18.0-1.1",
+      "observed_version": "1.19.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libngtcp2",
-      "observed_version": "1.25.0-1.1",
+      "observed_version": "1.26.0-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4649,7 +4761,7 @@
     },
     {
       "name": "libnm",
-      "observed_version": "1.58.1-2",
+      "observed_version": "1.58.1-3",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4698,7 +4810,7 @@
     },
     {
       "name": "libnvme",
-      "observed_version": "1.16.2-2.1",
+      "observed_version": "1.16.2-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4712,7 +4824,7 @@
     },
     {
       "name": "libodfgen",
-      "observed_version": "0.1.8-5.1",
+      "observed_version": "0.1.9-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4726,7 +4838,7 @@
     },
     {
       "name": "libopenmpt",
-      "observed_version": "0.8.9-1.1",
+      "observed_version": "0.8.10-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4747,7 +4859,7 @@
     },
     {
       "name": "libp11-kit",
-      "observed_version": "0.26.5-1.1",
+      "observed_version": "0.26.6-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4803,14 +4915,14 @@
     },
     {
       "name": "libpipewire",
-      "observed_version": "1:1.6.10-1",
+      "observed_version": "1:1.6.11-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libplacebo",
-      "observed_version": "7.360.1-7.1",
+      "observed_version": "7.387.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4845,7 +4957,7 @@
     },
     {
       "name": "libpulse",
-      "observed_version": "17.0+r134+g77d25a1e6-1.1",
+      "observed_version": "17.0+r134+g77d25a1e6-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4908,8 +5020,15 @@
     },
     {
       "name": "libreoffice-fresh",
-      "observed_version": "26.8.1-2.1",
+      "observed_version": "26.8.2-3",
       "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "librest",
+      "observed_version": "0.10.2-2.1",
+      "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
@@ -4957,7 +5076,7 @@
     },
     {
       "name": "libsasl",
-      "observed_version": "2.1.28-5.1",
+      "observed_version": "2.1.28-6.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4978,7 +5097,7 @@
     },
     {
       "name": "libshout",
-      "observed_version": "1:2.4.6-5.1",
+      "observed_version": "1:2.4.6-6.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -4993,6 +5112,13 @@
     {
       "name": "libsixel",
       "observed_version": "1.10.5-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libslirp",
+      "observed_version": "4.9.7-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5034,7 +5160,7 @@
     },
     {
       "name": "libspelling",
-      "observed_version": "0.4.10-2.1",
+      "observed_version": "0.4.11-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5048,14 +5174,14 @@
     },
     {
       "name": "libssh",
-      "observed_version": "0.12.2-1.1",
+      "observed_version": "0.12.2-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "libssh2",
-      "observed_version": "1.11.1-7.1",
+      "observed_version": "1.11.1-8.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5076,7 +5202,7 @@
     },
     {
       "name": "libstemmer",
-      "observed_version": "3.1.1-1.1",
+      "observed_version": "3.2.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5167,7 +5293,28 @@
     },
     {
       "name": "libtorrent-rasterbar",
-      "observed_version": "1:2.1.2-1.1",
+      "observed_version": "1:2.1.2-2.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libtpms",
+      "observed_version": "0.10.2-2",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libtraceevent",
+      "observed_version": "1:1.9.1-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libtracefs",
+      "observed_version": "1.8.4-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5299,8 +5446,22 @@
       "runtime_required": false
     },
     {
+      "name": "libvirt",
+      "observed_version": "1:12.9.0-1.1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "libvirt-glib",
+      "observed_version": "5.0.0-3.2",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "libvisio",
-      "observed_version": "0.1.11-1.1",
+      "observed_version": "0.1.12-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5363,7 +5524,7 @@
     },
     {
       "name": "libwireplumber",
-      "observed_version": "0.5.18-1.1",
+      "observed_version": "0.5.19-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5453,6 +5614,13 @@
       "runtime_required": false
     },
     {
+      "name": "libxdp",
+      "observed_version": "1.6.3-2.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "libxext",
       "observed_version": "1.3.7-1.1",
       "explicit": false,
@@ -5523,13 +5691,6 @@
       "runtime_required": false
     },
     {
-      "name": "libxklavier",
-      "observed_version": "5.4-7.1",
-      "explicit": false,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
       "name": "libxml2",
       "observed_version": "2.15.4-1.1",
       "explicit": false,
@@ -5538,7 +5699,7 @@
     },
     {
       "name": "libxmlb",
-      "observed_version": "0.3.29-1.1",
+      "observed_version": "0.3.30-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5643,7 +5804,7 @@
     },
     {
       "name": "libzip",
-      "observed_version": "1.11.4-1.2",
+      "observed_version": "1.11.4-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5670,6 +5831,13 @@
       "runtime_required": false
     },
     {
+      "name": "linux",
+      "observed_version": "7.3.4.arch1-2",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "linux-api-headers",
       "observed_version": "1:7.1-1",
       "explicit": false,
@@ -5678,28 +5846,28 @@
     },
     {
       "name": "linux-cachyos",
-      "observed_version": "7.3.0-4",
+      "observed_version": "7.3.4-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "linux-cachyos-headers",
-      "observed_version": "7.3.0-4",
+      "observed_version": "7.3.4-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "linux-cachyos-lts",
-      "observed_version": "6.18.55-2",
+      "observed_version": "6.18.60-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "linux-cachyos-lts-headers",
-      "observed_version": "6.18.55-2",
+      "observed_version": "6.18.60-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -5803,6 +5971,13 @@
       "runtime_required": false
     },
     {
+      "name": "linux-headers",
+      "observed_version": "7.3.4.arch1-2",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "lirc",
       "observed_version": "1:0.10.2-6.1",
       "explicit": false,
@@ -5811,21 +5986,21 @@
     },
     {
       "name": "live-media",
-      "observed_version": "2025.05.24-1.2",
+      "observed_version": "2026.10.24-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "llama-cpp",
-      "observed_version": "0.6.0-1.1",
+      "observed_version": "0.9.0-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lld",
-      "observed_version": "23.1.4-2",
+      "observed_version": "23.1.5-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5846,7 +6021,7 @@
     },
     {
       "name": "lldb",
-      "observed_version": "23.1.4-2",
+      "observed_version": "23.1.5-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -5860,21 +6035,21 @@
     },
     {
       "name": "llvm",
-      "observed_version": "23.1.4-2",
+      "observed_version": "23.1.5-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "llvm-libs",
-      "observed_version": "23.1.4-2",
+      "observed_version": "23.1.5-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "llvm-lit",
-      "observed_version": "23.1.4-2",
+      "observed_version": "23.1.5-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -5894,13 +6069,6 @@
       "runtime_required": false
     },
     {
-      "name": "lm-studio-bin",
-      "observed_version": "0.4.26-4",
-      "explicit": true,
-      "observed_foreign": true,
-      "runtime_required": false
-    },
-    {
       "name": "lm_sensors",
       "observed_version": "1:3.6.2-1.1",
       "explicit": false,
@@ -5911,13 +6079,6 @@
       "name": "lmdb",
       "observed_version": "0.9.35-1.1",
       "explicit": false,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
-      "name": "localsend",
-      "observed_version": "1.17.0-4",
-      "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
@@ -6000,7 +6161,7 @@
     },
     {
       "name": "luajit",
-      "observed_version": "2.1.1793383622+ea9eb7e-1.1",
+      "observed_version": "2.1.1794386141+63c8f1a-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6021,14 +6182,14 @@
     },
     {
       "name": "lxqt-menu-data",
-      "observed_version": "2.4.0-1",
+      "observed_version": "2.5.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "lz4",
-      "observed_version": "1:1.10.0-3",
+      "observed_version": "1:1.11.1-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6070,28 +6231,28 @@
     },
     {
       "name": "man-pages",
-      "observed_version": "6.19-1",
+      "observed_version": "6.20-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "mariadb",
-      "observed_version": "13.0.2-2.1",
+      "observed_version": "13.0.2-3.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "mariadb-clients",
-      "observed_version": "13.0.2-2.1",
+      "observed_version": "13.0.2-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "mariadb-libs",
-      "observed_version": "13.0.2-2.1",
+      "observed_version": "13.0.2-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6140,7 +6301,7 @@
     },
     {
       "name": "mesa",
-      "observed_version": "3:26.2.5-1",
+      "observed_version": "3:26.2.6-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6154,7 +6315,7 @@
     },
     {
       "name": "metacity",
-      "observed_version": "3.58.1-1.2",
+      "observed_version": "3.58.1-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6168,14 +6329,14 @@
     },
     {
       "name": "minizip",
-      "observed_version": "1:1.3.2-4",
+      "observed_version": "1:1.4-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "mise",
-      "observed_version": "2026.10.22-1.1",
+      "observed_version": "2026.11.8-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6203,7 +6364,7 @@
     },
     {
       "name": "mobile-broadband-provider-info",
-      "observed_version": "20251101-1",
+      "observed_version": "20261111-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6217,14 +6378,14 @@
     },
     {
       "name": "mongodb-compass",
-      "observed_version": "1.49.4-1",
+      "observed_version": "1.53.2-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "mongodb-tools-bin",
-      "observed_version": "100.20.0-1",
+      "observed_version": "100.20.1-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6252,7 +6413,7 @@
     },
     {
       "name": "mpv",
-      "observed_version": "1:0.41.0-6.1",
+      "observed_version": "1:0.42.0-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6273,7 +6434,7 @@
     },
     {
       "name": "mtools",
-      "observed_version": "1:4.0.49-1.1",
+      "observed_version": "1:4.0.50-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6294,7 +6455,7 @@
     },
     {
       "name": "nano",
-      "observed_version": "9.2-1.1",
+      "observed_version": "9.3-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6314,8 +6475,15 @@
       "runtime_required": false
     },
     {
+      "name": "ndctl",
+      "observed_version": "85-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "neon",
-      "observed_version": "0.37.1-1",
+      "observed_version": "0.37.1-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6343,7 +6511,7 @@
     },
     {
       "name": "networkmanager",
-      "observed_version": "1.58.1-2",
+      "observed_version": "1.58.1-3",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6364,7 +6532,7 @@
     },
     {
       "name": "newsboat",
-      "observed_version": "2.45-1.1",
+      "observed_version": "2.45.1-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6398,15 +6566,22 @@
       "runtime_required": false
     },
     {
+      "name": "ninja",
+      "observed_version": "1.13.2-3.1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "nmap",
-      "observed_version": "7.993-1.1",
+      "observed_version": "7.993-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "noctalia",
-      "observed_version": "5.4.0-1.1",
+      "observed_version": "5.5.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6420,7 +6595,7 @@
     },
     {
       "name": "nodejs",
-      "observed_version": "26.12.1-2",
+      "observed_version": "26.13.1-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6434,7 +6609,7 @@
     },
     {
       "name": "noto-fonts",
-      "observed_version": "1:2026.10.01-1",
+      "observed_version": "1:2026.11.01-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6448,14 +6623,14 @@
     },
     {
       "name": "noto-fonts-emoji",
-      "observed_version": "1:2.057-1",
+      "observed_version": "1:20260924-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "npm",
-      "observed_version": "12.2.1-1",
+      "observed_version": "12.2.2-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": true
@@ -6476,7 +6651,7 @@
     },
     {
       "name": "nss",
-      "observed_version": "3.132-1.1",
+      "observed_version": "3.133-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6496,13 +6671,6 @@
       "runtime_required": false
     },
     {
-      "name": "ntsync-autoload",
-      "observed_version": "1-1",
-      "explicit": false,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
       "name": "numactl",
       "observed_version": "2.0.19-1",
       "explicit": false,
@@ -6511,7 +6679,7 @@
     },
     {
       "name": "nuvio-desktop-bin",
-      "observed_version": "0.1.33alpha-1",
+      "observed_version": "0.1.35alpha-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
@@ -6546,14 +6714,14 @@
     },
     {
       "name": "ollama",
-      "observed_version": "0.40.13-1.1",
+      "observed_version": "0.40.16-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "onetbb",
-      "observed_version": "2023.1.0-1.1",
+      "observed_version": "2023.2.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6588,7 +6756,7 @@
     },
     {
       "name": "opencl-mesa",
-      "observed_version": "3:26.2.5-1",
+      "observed_version": "3:26.2.6-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6602,7 +6770,7 @@
     },
     {
       "name": "openexr",
-      "observed_version": "3.5.2-1.1",
+      "observed_version": "3.5.4-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6623,28 +6791,35 @@
     },
     {
       "name": "openjph",
-      "observed_version": "0.32.0-1.1",
+      "observed_version": "0.33.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "openssh",
-      "observed_version": "10.6p1-2.1",
+      "observed_version": "10.6p2-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "openssl",
-      "observed_version": "3.6.5-1.1",
+      "observed_version": "4.1.0-1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "openssl-3",
+      "observed_version": "3.5.9-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "openvpn",
-      "observed_version": "2.7.8-1.1",
+      "observed_version": "2.7.9-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6672,21 +6847,21 @@
     },
     {
       "name": "oxygen-cursors",
-      "observed_version": "6.8.2-1.1",
+      "observed_version": "6.8.3-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "p11-kit",
-      "observed_version": "0.26.5-1.1",
+      "observed_version": "0.26.6-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "pacman",
-      "observed_version": "7.1.0.r9.g54d9411-5",
+      "observed_version": "7.1.0.r9.g54d9411-6",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6721,7 +6896,7 @@
     },
     {
       "name": "pahole",
-      "observed_version": "1:1.32-1.1",
+      "observed_version": "1:1.32-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6763,7 +6938,7 @@
     },
     {
       "name": "parallel",
-      "observed_version": "20260922-1",
+      "observed_version": "20261022-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6777,7 +6952,7 @@
     },
     {
       "name": "paru",
-      "observed_version": "2.1.0-3",
+      "observed_version": "2.2.0-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -6791,7 +6966,7 @@
     },
     {
       "name": "passim",
-      "observed_version": "0.1.12-1.1",
+      "observed_version": "0.1.13-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -6819,7 +6994,7 @@
     },
     {
       "name": "pcmanfm-qt",
-      "observed_version": "2.4.1-1.1",
+      "observed_version": "2.5.0-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -7035,10 +7210,10 @@
       "runtime_required": false
     },
     {
-      "name": "photocraft-bin",
-      "observed_version": "0.17.0-1",
-      "explicit": true,
-      "observed_foreign": true,
+      "name": "phodav",
+      "observed_version": "3.2-1.1",
+      "explicit": false,
+      "observed_foreign": false,
       "runtime_required": false
     },
     {
@@ -7050,28 +7225,28 @@
     },
     {
       "name": "pipewire",
-      "observed_version": "1:1.6.10-1",
+      "observed_version": "1:1.6.11-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "pipewire-alsa",
-      "observed_version": "1:1.6.10-1",
+      "observed_version": "1:1.6.11-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "pipewire-audio",
-      "observed_version": "1:1.6.10-1",
+      "observed_version": "1:1.6.11-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "pipewire-pulse",
-      "observed_version": "1:1.6.10-1",
+      "observed_version": "1:1.6.11-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -7085,7 +7260,7 @@
     },
     {
       "name": "pkcs11-helper",
-      "observed_version": "1.31.0-1.1",
+      "observed_version": "1.31.0-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7106,7 +7281,7 @@
     },
     {
       "name": "plasma-activities",
-      "observed_version": "6.8.2-1.1",
+      "observed_version": "6.8.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7134,7 +7309,7 @@
     },
     {
       "name": "pnpm",
-      "observed_version": "12.16.1-1.1",
+      "observed_version": "12.21.0-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -7155,21 +7330,21 @@
     },
     {
       "name": "poppler",
-      "observed_version": "26.10.0-2.1",
+      "observed_version": "26.11.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "poppler-glib",
-      "observed_version": "26.10.0-2.1",
+      "observed_version": "26.11.0-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "poppler-qt6",
-      "observed_version": "26.10.0-2.1",
+      "observed_version": "26.11.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7190,14 +7365,14 @@
     },
     {
       "name": "postgresql",
-      "observed_version": "18.6-4.1",
+      "observed_version": "18.7-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "postgresql-libs",
-      "observed_version": "18.6-4.1",
+      "observed_version": "18.7-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7218,7 +7393,7 @@
     },
     {
       "name": "ppp",
-      "observed_version": "2.5.4-1.1",
+      "observed_version": "2.5.5-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7246,14 +7421,14 @@
     },
     {
       "name": "proton-vpn-cli",
-      "observed_version": "1.0.5-1",
+      "observed_version": "1.1.0-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "proton-vpn-daemon",
-      "observed_version": "0.13.8-1",
+      "observed_version": "0.14.1-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7274,14 +7449,14 @@
     },
     {
       "name": "pv",
-      "observed_version": "1.12.0-1.1",
+      "observed_version": "1.12.7-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "python",
-      "observed_version": "3.14.8-1",
+      "observed_version": "3.14.10-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": true
@@ -7393,7 +7568,7 @@
     },
     {
       "name": "python-click",
-      "observed_version": "8.5.0-1",
+      "observed_version": "8.5.1-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7414,7 +7589,7 @@
     },
     {
       "name": "python-cryptography",
-      "observed_version": "50.0.2-1.1",
+      "observed_version": "50.0.2-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7504,6 +7679,13 @@
       "runtime_required": false
     },
     {
+      "name": "python-fonttools",
+      "observed_version": "4.68.0-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "python-frozenlist",
       "observed_version": "1.8.0-2.1",
       "explicit": false,
@@ -7533,7 +7715,7 @@
     },
     {
       "name": "python-importlib-metadata",
-      "observed_version": "10.1.0-1",
+      "observed_version": "10.2.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7616,8 +7798,29 @@
       "runtime_required": false
     },
     {
+      "name": "python-jsonschema",
+      "observed_version": "4.26.0-1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "python-jsonschema-specifications",
+      "observed_version": "2025.9.1-2",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "python-keyring",
       "observed_version": "25.7.0-3",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "python-lazy-importer",
+      "observed_version": "0.1.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7644,6 +7847,13 @@
       "runtime_required": false
     },
     {
+      "name": "python-lxml",
+      "observed_version": "6.1.3_1-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "python-mako",
       "observed_version": "1.4.3-1",
       "explicit": false,
@@ -7652,7 +7862,7 @@
     },
     {
       "name": "python-markdown",
-      "observed_version": "3.11.2-1",
+      "observed_version": "3.11.3-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7687,7 +7897,7 @@
     },
     {
       "name": "python-numpy",
-      "observed_version": "2.5.4-1.1",
+      "observed_version": "2.5.5-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7735,6 +7945,20 @@
       "runtime_required": false
     },
     {
+      "name": "python-pikepdf",
+      "observed_version": "10.18.2-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "python-pillow",
+      "observed_version": "13.0.0-1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "python-pip",
       "observed_version": "26.2.2-1",
       "explicit": true,
@@ -7750,7 +7974,7 @@
     },
     {
       "name": "python-platformdirs",
-      "observed_version": "4.13.5-1",
+      "observed_version": "4.14.5-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7792,7 +8016,7 @@
     },
     {
       "name": "python-proton-vpn-api-core",
-      "observed_version": "5.8.7-1.1",
+      "observed_version": "6.1.1-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7896,6 +8120,20 @@
       "runtime_required": false
     },
     {
+      "name": "python-pyqt5",
+      "observed_version": "5.15.11-7",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "python-pyqt5-sip",
+      "observed_version": "12.20.1-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "python-pyserial",
       "observed_version": "3.5-9",
       "explicit": false,
@@ -7924,8 +8162,22 @@
       "runtime_required": false
     },
     {
+      "name": "python-referencing",
+      "observed_version": "0.37.0-4",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "python-requests",
       "observed_version": "2.34.2-1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "python-rpds-py",
+      "observed_version": "2026.9.1-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7953,14 +8205,7 @@
     },
     {
       "name": "python-sentry_sdk",
-      "observed_version": "2.73.0-1",
-      "explicit": false,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
-      "name": "python-setproctitle",
-      "observed_version": "1.3.7-2.1",
+      "observed_version": "2.75.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -7974,7 +8219,7 @@
     },
     {
       "name": "python-shtab",
-      "observed_version": "1.12.1-1",
+      "observed_version": "1.13.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8002,7 +8247,7 @@
     },
     {
       "name": "python-typing-inspection",
-      "observed_version": "0.4.4-1",
+      "observed_version": "0.4.5-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8016,7 +8261,7 @@
     },
     {
       "name": "python-ujson",
-      "observed_version": "6.0.0-1.1",
+      "observed_version": "6.1.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8051,7 +8296,7 @@
     },
     {
       "name": "python-wcwidth",
-      "observed_version": "0.9.3-1.1",
+      "observed_version": "0.9.4-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8100,14 +8345,42 @@
     },
     {
       "name": "qbittorrent",
-      "observed_version": "5.3.0-1",
+      "observed_version": "5.3.0-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "qca-qt6",
-      "observed_version": "2.3.12-1",
+      "observed_version": "2.3.12-3",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "qemu-common",
+      "observed_version": "11.1.3-1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "qemu-system-x86",
+      "observed_version": "11.1.3-1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "qemu-system-x86-firmware",
+      "observed_version": "11.1.3-1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "qpdf",
+      "observed_version": "12.4.2-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8128,7 +8401,7 @@
     },
     {
       "name": "qt5-base",
-      "observed_version": "5.15.19+kde+r96-1.1",
+      "observed_version": "5.15.19+kde+r97-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8170,14 +8443,14 @@
     },
     {
       "name": "qt6-base",
-      "observed_version": "6.12.0-3.1",
+      "observed_version": "6.12.0-5.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "qt6-declarative",
-      "observed_version": "6.12.0-3.1",
+      "observed_version": "6.12.0-4.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": true
@@ -8254,7 +8527,7 @@
     },
     {
       "name": "qview",
-      "observed_version": "7.1-2",
+      "observed_version": "7.1-3",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8288,9 +8561,9 @@
       "runtime_required": false
     },
     {
-      "name": "rclone",
-      "observed_version": "1.75.2-1.1",
-      "explicit": true,
+      "name": "rdma-core",
+      "observed_version": "66.0-1",
+      "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
@@ -8387,7 +8660,7 @@
     },
     {
       "name": "rsync",
-      "observed_version": "3.5.1-3.1",
+      "observed_version": "3.5.2-3.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -8408,7 +8681,7 @@
     },
     {
       "name": "ruby",
-      "observed_version": "3.4.12-1",
+      "observed_version": "3.4.12-2",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -8422,35 +8695,28 @@
     },
     {
       "name": "ruff",
-      "observed_version": "0.17.3-1.1",
+      "observed_version": "0.17.5-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
-      "name": "run-parts",
-      "observed_version": "5.24-1.1",
-      "explicit": false,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
       "name": "runc",
-      "observed_version": "1.5.2-1.1",
+      "observed_version": "1.5.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "rustup",
-      "observed_version": "1.29.2-1.1",
+      "observed_version": "1.29.3-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": true
     },
     {
       "name": "s-nail",
-      "observed_version": "14.9.25-1.1",
+      "observed_version": "14.9.25-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -8471,7 +8737,7 @@
     },
     {
       "name": "scx-scheds",
-      "observed_version": "1.1.4-1",
+      "observed_version": "1.1.4-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8520,7 +8786,7 @@
     },
     {
       "name": "sdl3",
-      "observed_version": "3.4.18-1.1",
+      "observed_version": "3.4.20-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8528,6 +8794,13 @@
     {
       "name": "sdl_image",
       "observed_version": "1.2.12-10.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "seabios",
+      "observed_version": "1.17.0-2",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8555,7 +8828,7 @@
     },
     {
       "name": "semver",
-      "observed_version": "7.8.5-1",
+      "observed_version": "7.8.6-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8597,7 +8870,7 @@
     },
     {
       "name": "simdjson",
-      "observed_version": "2:5.0.5-1.1",
+      "observed_version": "2:5.1.1-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8645,6 +8918,13 @@
       "runtime_required": false
     },
     {
+      "name": "socat",
+      "observed_version": "1.8.1.3-2.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "sof-firmware",
       "observed_version": "2026.09.2-1",
       "explicit": true,
@@ -8653,14 +8933,14 @@
     },
     {
       "name": "solid",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "sonnet",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8722,8 +9002,22 @@
       "runtime_required": false
     },
     {
+      "name": "spice-gtk",
+      "observed_version": "0.43-2",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "spice-protocol",
+      "observed_version": "0.14.5-1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "spirv-llvm-translator",
-      "observed_version": "23.1.2-1.1",
+      "observed_version": "23.1.3-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8737,7 +9031,7 @@
     },
     {
       "name": "spotify",
-      "observed_version": "1:1.3.4.258-2",
+      "observed_version": "1:1.3.8.620-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
@@ -8758,14 +9052,14 @@
     },
     {
       "name": "srt",
-      "observed_version": "1.5.7-2.1",
+      "observed_version": "1.5.7-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "sshfs",
-      "observed_version": "3.7.6-1.1",
+      "observed_version": "3.7.7-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -8793,7 +9087,7 @@
     },
     {
       "name": "sudo",
-      "observed_version": "1.9.17.p2-6.1",
+      "observed_version": "1.9.17.p2-7.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -8813,6 +9107,13 @@
       "runtime_required": true
     },
     {
+      "name": "swtpm",
+      "observed_version": "0.10.2-2.1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "sxiv",
       "observed_version": "26-2.1",
       "explicit": true,
@@ -8821,14 +9122,14 @@
     },
     {
       "name": "syndication",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "syntax-highlighting",
-      "observed_version": "6.31.0-1.1",
+      "observed_version": "6.32.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8849,28 +9150,28 @@
     },
     {
       "name": "systemd",
-      "observed_version": "262.1-1",
+      "observed_version": "262.2-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "systemd-libs",
-      "observed_version": "262.1-1",
+      "observed_version": "262.2-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "systemd-resolvconf",
-      "observed_version": "262.1-1",
+      "observed_version": "262.2-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "systemd-sysvcompat",
-      "observed_version": "262.1-1",
+      "observed_version": "262.2-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -8912,7 +9213,7 @@
     },
     {
       "name": "tcpdump",
-      "observed_version": "4.99.7-1.1",
+      "observed_version": "4.99.7-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -8933,7 +9234,7 @@
     },
     {
       "name": "telegram-desktop",
-      "observed_version": "7.3.3-1.1",
+      "observed_version": "7.4.4-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -8995,16 +9296,16 @@
       "runtime_required": false
     },
     {
-      "name": "timeshift",
-      "observed_version": "26.09.0-1.1",
-      "explicit": true,
+      "name": "tinysparql",
+      "observed_version": "3.12.0-1",
+      "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
-      "name": "tinysparql",
-      "observed_version": "3.12.0-1",
-      "explicit": false,
+      "name": "tk",
+      "observed_version": "8.6.16-1.1",
+      "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
@@ -9024,14 +9325,14 @@
     },
     {
       "name": "tomlplusplus",
-      "observed_version": "3.4.0-2.1",
+      "observed_version": "3.4.0-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "tpm2-tss",
-      "observed_version": "4.2.0-2.1",
+      "observed_version": "4.2.1-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -9192,7 +9493,7 @@
     },
     {
       "name": "turbostat",
-      "observed_version": "7.3-1",
+      "observed_version": "7.3.4-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -9206,7 +9507,7 @@
     },
     {
       "name": "tzdata",
-      "observed_version": "2026e-1.1",
+      "observed_version": "2026f-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -9227,7 +9528,7 @@
     },
     {
       "name": "udisks2",
-      "observed_version": "2.11.2-1.1",
+      "observed_version": "2.12.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -9283,8 +9584,15 @@
     },
     {
       "name": "usb_modeswitch",
-      "observed_version": "2.6.2.20251207-1.1",
+      "observed_version": "2.6.3.20261111-1.1",
       "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "usbredir",
+      "observed_version": "0.15.0-1.1",
+      "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
@@ -9311,14 +9619,14 @@
     },
     {
       "name": "uv",
-      "observed_version": "0.13.6-1.1",
+      "observed_version": "0.13.8-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": true
     },
     {
       "name": "uwsm",
-      "observed_version": "0.27.1-1",
+      "observed_version": "0.27.2-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": true
@@ -9333,6 +9641,13 @@
     {
       "name": "vapoursynth",
       "observed_version": "81-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "vde2",
+      "observed_version": "2.3.3-10.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -9359,8 +9674,22 @@
       "runtime_required": false
     },
     {
+      "name": "virt-viewer",
+      "observed_version": "11.0-4.1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
+      "name": "virtiofsd",
+      "observed_version": "1.14.0-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "visual-studio-code-bin",
-      "observed_version": "1.144.0-1",
+      "observed_version": "1.146.0-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
@@ -9948,21 +10277,21 @@
     },
     {
       "name": "vulkan-intel",
-      "observed_version": "3:26.2.5-1",
+      "observed_version": "3:26.2.6-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "vulkan-mesa-implicit-layers",
-      "observed_version": "3:26.2.5-1",
+      "observed_version": "3:26.2.6-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "vulkan-swrast",
-      "observed_version": "3:26.2.5-1",
+      "observed_version": "3:26.2.6-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -9976,14 +10305,14 @@
     },
     {
       "name": "w3m",
-      "observed_version": "0.5.6-1.1",
+      "observed_version": "0.5.6-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "waterfox-bin",
-      "observed_version": "1:6.7.5-1",
+      "observed_version": "1:6.7.8-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -10031,6 +10360,13 @@
       "runtime_required": false
     },
     {
+      "name": "wf-recorder",
+      "observed_version": "0.6.0-2.1",
+      "explicit": true,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "wget",
       "observed_version": "1.25.0-6.1",
       "explicit": true,
@@ -10052,13 +10388,6 @@
       "runtime_required": false
     },
     {
-      "name": "wine",
-      "observed_version": "11.20-1.1",
-      "explicit": true,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
       "name": "wireguard-tools",
       "observed_version": "1.0.20260223-1.1",
       "explicit": false,
@@ -10074,7 +10403,7 @@
     },
     {
       "name": "wireplumber",
-      "observed_version": "0.5.18-1.1",
+      "observed_version": "0.5.19-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -10115,8 +10444,15 @@
       "runtime_required": false
     },
     {
+      "name": "wolfssl",
+      "observed_version": "5.9.4-1.1",
+      "explicit": false,
+      "observed_foreign": false,
+      "runtime_required": false
+    },
+    {
       "name": "wordcraft-bin",
-      "observed_version": "0.13.2-1",
+      "observed_version": "0.18.1-1",
       "explicit": true,
       "observed_foreign": true,
       "runtime_required": false
@@ -10130,7 +10466,7 @@
     },
     {
       "name": "wpa_supplicant",
-      "observed_version": "2:2.12-1.1",
+      "observed_version": "2:2.12-2.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -10145,20 +10481,6 @@
     {
       "name": "x265",
       "observed_version": "4.3-1.1",
-      "explicit": false,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
-      "name": "xapp",
-      "observed_version": "3.2.3-1.1",
-      "explicit": false,
-      "observed_foreign": false,
-      "runtime_required": false
-    },
-    {
-      "name": "xapp-symbolic-icons",
-      "observed_version": "1.1.0-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -10249,7 +10571,7 @@
     },
     {
       "name": "xdg-desktop-portal-hyprland",
-      "observed_version": "1.4.1-2.1",
+      "observed_version": "1.5.0-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -10291,7 +10613,7 @@
     },
     {
       "name": "xkeyboard-config",
-      "observed_version": "2.48-1",
+      "observed_version": "2.49-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -10305,7 +10627,7 @@
     },
     {
       "name": "xmlsec",
-      "observed_version": "1.3.12-1.1",
+      "observed_version": "1.3.13-2.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -10319,14 +10641,14 @@
     },
     {
       "name": "xorg-server",
-      "observed_version": "21.1.25-2.1",
+      "observed_version": "21.1.26-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "xorg-server-common",
-      "observed_version": "21.1.25-2.1",
+      "observed_version": "21.1.26-1.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -10368,7 +10690,7 @@
     },
     {
       "name": "xorg-xwayland",
-      "observed_version": "24.1.14-1.1",
+      "observed_version": "24.1.15-1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
@@ -10438,21 +10760,21 @@
     },
     {
       "name": "zathura-pdf-mupdf",
-      "observed_version": "2026.07.18-6.1",
+      "observed_version": "2026.07.18-7.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "zbar",
-      "observed_version": "0.23.95-1.1",
+      "observed_version": "0.23.95-3.1",
       "explicit": false,
       "observed_foreign": false,
       "runtime_required": false
     },
     {
       "name": "zed",
-      "observed_version": "1.26.2-1",
+      "observed_version": "1.28.1-1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false
@@ -10466,7 +10788,7 @@
     },
     {
       "name": "zig",
-      "observed_version": "0.17.0-1.1",
+      "observed_version": "0.17.1-1.1",
       "explicit": true,
       "observed_foreign": false,
       "runtime_required": false

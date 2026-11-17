@@ -13,10 +13,6 @@
       "version": "1.6.0",
       "overridden": false
     },
-    "lavish-axi": {
-      "version": "0.1.73",
-      "overridden": false
-    },
     "playwright": {
       "version": "1.61.1",
       "overridden": false
